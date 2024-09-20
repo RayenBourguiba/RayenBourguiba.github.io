@@ -1,844 +1,1395 @@
-<!DOCTYPE html><html class="no-js" lang="en" dir="ltr"><head><meta charset="utf-8"><title>Blayden - Personal Portfolio & Resume HTML Template Documentation</title><meta name="description" content="Blayden - Personal Portfolio &amp; Resume HTML Template Documentation"><meta name="keywords" content="mix_design, coming soon, under construction, template, landing page, portfolio, one page, responsive, html5, css3, creative, clean, agency, personal page"><meta name="author" content="mix_design"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"><link rel="icon" href="img/favicon/favicon.ico" sizes="any"><link rel="icon" href="img/favicon/icon.svg" type="image/svg+xml"><link rel="apple-touch-icon" href="img/favicon/apple-touch-icon.png"><link rel="icon" type="image/png" sizes="192x192" href="img/favicon/android-icon-192.png"><link rel="icon" type="image/png" sizes="512x512" href="img/favicon/android-icon-512.png"><meta property="og:image" content="img/favicon/og-image.jpg"><style>.loader{position:fixed;top:0;right:0;bottom:0;left:0;z-index:9999;background-color:#141414;opacity:1;visibility:visible;-webkit-transition:all .6s ease-in-out;-o-transition:all .6s ease-in-out;-moz-transition:all .6s ease-in-out;transition:all .6s ease-in-out}.loader.loaded{opacity:0;visibility:hidden}.loader__content{position:absolute;left:50%;top:50%;bottom:auto;right:auto;-webkit-transform:translateX(-50%) translateY(-50%);-moz-transform:translateX(-50%) translateY(-50%);-ms-transform:translateX(-50%) translateY(-50%);transform:translateX(-50%) translateY(-50%)}.loader__logo{width:100px}.loader__logo img{display:block;width:100%;height:auto}@-webkit-keyframes fadeIn{from{opacity:0}to{opacity:1}}@-moz-keyframes fadeIn{from{opacity:0}to{opacity:1}}@keyframes fadeIn{from{opacity:0}to{opacity:1}}.fadeIn{-webkit-animation:fadeIn .6s 1;-moz-animation:fadeIn .6s 1;animation:fadeIn .6s 1;-webkit-animation-fill-mode:both;-moz-animation-fill-mode:both;animation-fill-mode:both}@-webkit-keyframes fadeOut{from{opacity:1}to{opacity:0}}@-moz-keyframes fadeOut{from{opacity:1}to{opacity:0}}@keyframes fadeOut{from{opacity:1}to{opacity:0}}.fadeOut{-webkit-animation:fadeOut .6s 1;-moz-animation:fadeOut .6s 1;animation:fadeOut .6s 1;-webkit-animation-fill-mode:both;-moz-animation-fill-mode:both;animation-fill-mode:both}</style><link rel="stylesheet" type="text/css" href="css/plugins.min.css"><link rel="stylesheet" type="text/css" href="css/main.min.css"><meta name="theme-color" content="#141414"><meta name="msapplication-navbutton-color" content="#141414"><meta name="apple-mobile-web-app-status-bar-style" content="#141414"></head><body class="overflow-hidden line-numbers"><!-- IE support --><!--[if lt IE 9]>
-<script src="libs/es5-shim.min.js"></script>
-<script src="libs/html5shiv.min.js"></script>
-<script src="libs/html5shiv-printshiv.min.js"></script>
-<script src="libs/respond.min.js"></script>
-<![endif]-->
-<!-- loader --><div class="loader">
-  <div class="loader__content">
-    <div class="loader__logo fadeIn">
-      <img src="img/logo.svg" alt="Blayden - Personal Portfolio & Resume HTML Template Documentation">
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8" />
+
+    <title>Rayen Bourguiba - Portfolio</title>
+
+    <meta name="description" content="This is Rayen's personal portfolio!" />
+    <meta
+      name="keywords"
+      content="rayen_bourguiba, resume, portfolio, personal page, cv, template, software_engineer, developer creative, clean"
+    />
+    <meta name="author" content="rayen_bourguiba" />
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1"
+    />
+
+    <link rel="icon" href="img/favicon/logo.ico" sizes="any" />
+    <link rel="icon" href="img/favicon/logo.svg" type="image/svg+xml" />
+    <link rel="apple-touch-icon" href="img/favicon/logo.png" />
+    <link rel="manifest" href="img/favicon/manifest.webmanifest" />
+
+    <meta property="og:image:height" content="1200" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:title" content="Rayen Bourguiba - Personal Portfolio" />
+    <meta
+      property="og:description"
+      content="This is Rayen's personal portfolio!"
+    />
+
+    <link rel="stylesheet" type="text/css" href="css/loaders/loader.css" />
+    <link rel="stylesheet" type="text/css" href="css/plugins.css" />
+    <link rel="stylesheet" type="text/css" href="css/main.css" />
+
+    <meta
+      name="theme-color"
+      media="(prefers-color-scheme: light)"
+      content="#BABEC8"
+    />
+    <meta
+      name="theme-color"
+      media="(prefers-color-scheme: dark)"
+      content="#141414"
+    />
+    <meta name="msapplication-navbutton-color" content="#141414" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta
+      name="apple-mobile-web-app-status-bar-style"
+      content="black-translucent"
+    />
+  </head>
+
+  <body>
+    <!-- Loader Start -->
+    <div id="loader" class="loader">
+      <div class="loader__wrapper">
+        <div class="loader__content">
+          <div class="loader__count">
+            <span class="count__text">0</span>
+            <span class="count__percent">%</span>
+          </div>
+        </div>
+      </div>
     </div>
-  </div>
-</div>
-<!-- header--><header class="header">
-  <div class="header__logoblock">
-    <div class="logoblock__name">
-      <a href="https://mixdesign.club/themeforest/blayden" target="_blank">
-        Blayden
+    <!-- Loader End -->
+
+    <!-- Header Start -->
+    <header
+      id="header"
+      class="header d-flex justify-content-center loading__fade"
+    >
+      <!-- Navigation Menu Start -->
+      <div class="header__navigation d-flex justify-content-start">
+        <nav id="menu" class="menu">
+          <ul class="menu__list d-flex justify-content-start">
+            <li class="menu__item">
+              <a class="menu__link btn" href="#home">
+                <span class="menu__caption">Home</span>
+                <i class="ph ph-house-simple"></i>
+              </a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link btn" href="#about">
+                <span class="menu__caption">About Me</span>
+                <i class="ph ph-user"></i>
+              </a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link btn" href="#resume">
+                <span class="menu__caption">Resume</span>
+                <i class="ph ph-article"></i>
+              </a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link btn" href="#contact">
+                <span class="menu__caption">Contact</span>
+                <i class="ph ph-envelope"></i>
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <!-- Navigation Menu End -->
+    </header>
+    <!-- Header End -->
+
+    <!-- Fixed Logo Start -->
+    <div class="logo loading__fade">
+      <a href="#home" class="logo__link">
+        <!-- logo icon -->
+        <?xml version="1.0" encoding="utf-8"?>
+        <!-- Generator: Adobe Illustrator 24.1.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+        <?xml version="1.0" encoding="utf-8"?>
+        <!-- Generator: Adobe Illustrator 24.1.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+        <svg
+          version="1.1"
+          id="Layer_1"
+          xmlns="http://www.w3.org/2000/svg"
+          xmlns:xlink="http://www.w3.org/1999/xlink"
+          x="0px"
+          y="0px"
+          viewBox="0 0 50 50"
+          style="enable-background: new 0 0 50 50"
+          xml:space="preserve"
+        >
+          <style type="text/css">
+            .st0 {
+              fill: #ffffff;
+            }
+          </style>
+          <path
+            class="st0"
+            d="M33.4,50H16.7C7.5,50,0,42.5,0,33.3V16.7C0,7.5,7.5,0,16.7,0h16.7C42.5,0,50,7.5,50,16.7v16.7
+          C50,42.5,42.5,50,33.4,50z"
+          />
+          <g>
+            <g>
+              <g>
+                <defs>
+                  <path
+                    id="SVGID_1_"
+                    d="M33.4,50H16.7C7.5,50,0,42.5,0,33.3V16.7C0,7.5,7.5,0,16.7,0h16.7C42.5,0,50,7.5,50,16.7v16.7
+                  C50,42.5,42.5,50,33.4,50z"
+                  />
+                </defs>
+                <clipPath id="SVGID_2_">
+                  <use xlink:href="#SVGID_1_" style="overflow: visible" />
+                </clipPath>
+              </g>
+            </g>
+          </g>
+          <g
+            transform="translate(0.000000,1080.000000) scale(0.100000,-0.100000)"
+          >
+            <path
+              d="M106.1,10450.1v-78.2h13h13v39.2v39.2h26.2h26.2v-13v-13h13h13v13v13h6.5h6.5v13v13h13h13v13v13h-13h-13v13v13h-58.7h-58.7
+            C106.1,10528.3,106.1,10450.1,106.1,10450.1z M223.5,10489.3v-13h-45.7h-45.7v13v13h45.7h45.7V10489.3z"
+            />
+            <path
+              d="M276,10450.1v-78.2h52.2h52.2v13v13h13h13v19.5v19.5h-13h-13v-19.5v-19.5h-39.2H302v19.7v19.7h39.2h39.2v13v13h13h13v19.5
+            v19.5h-13h-13v13v13h-52.2H276V10450.1z M380.5,10482.8v-19.5h-39.2H302v19.5v19.5h39.2h39.2L380.5,10482.8L380.5,10482.8z"
+            />
+            <path
+              d="M210.5,10410.9v-13h13h13v-13v-13h13h13v13v13h-13h-13v13v13h-13h-13V10410.9z"
+            />
+          </g>
+        </svg>
+        <!-- logo text -->
+        <span class="logo-text">Rayen Bourguiba</span>
       </a>
     </div>
-    <div class="logoblock__descr">
-      <p>Blayden - Personal Portfolio & Resume HTML Template Documentation</p>
+    <!-- Fixed Logo End -->
+
+    <!-- Page Content Start -->
+    <main id="page-content" class="page-content">
+      <!-- Main Section Start -->
+      <section id="home" class="main home">
+        <!-- Main Section Intro Start -->
+        <div class="main__intro intro-95-desktop">
+          <!-- Intro Background Start -->
+          <div class="intro__background intro-bg-02">
+            <div class="intro-bg-02__01" data-speed="0.6">
+              <img src="./img/marquee/laptop.png" alt="Laptop" />
+            </div>
+            <div class="intro-bg-02__02" data-speed="0.8">
+              <img src="./img/marquee/globe.png" alt="Internet" />
+            </div>
+          </div>
+          <!-- Intro Background End -->
+
+          <div class="container-fluid p-0 fullheight-desktop">
+            <div class="row g-0 fullheight-desktop align-items-xl-stretch">
+              <!-- Intro Data Line #1 (if needed) Start -->
+              <div class="col-12 col-xl-2"></div>
+              <!-- Intro Data Line #1 (if needed) End -->
+
+              <!-- Intro Content Start -->
+              <div class="col-12 col-xl-8 fullheight-desktop">
+                <!-- Headline Start -->
+                <div
+                  id="headline"
+                  class="headline headline-95-desktop d-flex align-items-start flex-column loading-wrap"
+                >
+                  <h1 class="headline__title loading__item">
+                    Tech, design & some magic
+                  </h1>
+                  <p
+                    class="headline__subtitle space-top animated-type loading__item"
+                  >
+                    Hello! I am Rayen Bourguiba
+                    <br />
+                    <span id="typed-strings">
+                      <b>Software Engineer</b>
+                      <b>Graphic Designer</b>
+                      <b>Tech Enthousiast</b>
+                    </span>
+                    <span id="typed"></span>
+                  </p>
+                </div>
+                <!-- Headline End -->
+              </div>
+              <!-- Intro Content End -->
+
+              <!-- Intro Data Line #2 (if needed) Start -->
+              <div class="col-12 col-xl-2"></div>
+              <!-- Intro Data Line #2 (if needed) End -->
+            </div>
+          </div>
+        </div>
+        <!-- Main Section Intro End -->
+      </section>
+      <!-- Main Section End -->
+
+      <!-- Inner Section - About - Start -->
+      <section id="about" class="inner inner-grid-bottom about">
+        <div class="inner__wrapper">
+          <div class="container-fluid p-0">
+            <div class="row g-0">
+              <!-- Inner Section Name Start -->
+              <div class="col-12 col-xl-2">
+                <div class="inner__name">
+                  <!-- Content Block - Section Name Start -->
+                  <div class="content__block name-block">
+                    <span class="section-name icon-right animate-in-up">
+                      <span class="section-name-caption">About me</span>
+                      <i class="ph ph-arrow-down-right"></i>
+                    </span>
+                  </div>
+                  <!-- Content Block - Section Name Start -->
+                </div>
+              </div>
+              <!-- Inner Section Name End -->
+
+              <!-- Inner Section Content Start -->
+              <div class="col-12 col-xl-8">
+                <div class="inner__content">
+                  <!-- Content Block - H2 Section Title Start -->
+                  <div class="content__block section-text-title">
+                    <div class="block__descr">
+                      <h2 class="reveal-type animate-in-up">
+                        Approach and<br />philosophy
+                      </h2>
+                    </div>
+                  </div>
+                  <!-- Content Block - H2 Section Title End -->
+
+                  <!-- Content Block - About Me Data Start -->
+                  <div class="content__block grid-block pre-grid-items">
+                    <div class="container-fluid p-0">
+                      <div class="row g-0 justify-content-between">
+                        <div
+                          class="col-12 col-md-8 col-lg-7 col-xxl-8 grid-item about-descr pre-title"
+                        >
+                          <p
+                            class="about-descr__text type-basic-160lh animate-in-up"
+                          >
+                            I approach software engineering with a focus on
+                            solving real-world problems through user-centered
+                            design. I’m passionate about creating efficient,
+                            scalable solutions that improve user experiences,
+                            combining functionality with intuitive, aesthetic
+                            design. As an entrepreneur at heart, I embrace
+                            challenges as opportunities to learn and grow,
+                            constantly refining my skills to build innovative,
+                            forward-thinking solutions.
+                          </p>
+                          <div
+                            class="btn-group about-descr__btnholder animate-in-up"
+                          >
+                            <a
+                              class="btn btn-default hover-default"
+                              href="https://drive.google.com/file/d/1XgLrr_j7b3ublqgXLgphHnR6-NG4pO0Y/view?usp=sharing"
+                              target="_blank"
+                            >
+                              <em></em>
+                              <span class="btn-caption"> Download CV </span>
+                            </a>
+                          </div>
+                        </div>
+
+                        <div
+                          class="col-12 col-md-4 col-xxl-3 grid-item about-info pre-title"
+                        >
+                          <div class="about-info__item animate-in-up">
+                            <h6>Rayen BOURGUIBA</h6>
+                          </div>
+                          <div class="about-info__item animate-in-up">
+                            <h6>
+                              <a
+                                class="link-inline text-link"
+                                href="tel:+33605993236"
+                                >+33 6 05 99 32 36</a
+                              >
+                            </h6>
+                          </div>
+                          <div class="about-info__item animate-in-up">
+                            <h6>
+                              <a
+                                class="link-inline text-link"
+                                href="mailto:rayen.bourguiba01@gmail.com?subject=Message%20from%20your%20site"
+                                >rayen.bourguiba01@gmail.com</a
+                              >
+                            </h6>
+                          </div>
+                          <div class="about-info__item animate-in-up">
+                            <h6>
+                              <a
+                                class="link-inline text-link"
+                                href="https://maps.app.goo.gl/pyPN9ByrVbpvXdXm9"
+                                target="_blank"
+                                >Paris, France</a
+                              >
+                            </h6>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- Content Block - About Me Data End -->
+
+                  <!-- Content Block - Image Divider Start -->
+                  <div class="content__block grid-block pre-grid-items">
+                    <div class="container-fluid p-0">
+                      <div class="row g-0">
+                        <div class="col-12 grid-item">
+                          <!-- change the background image in the main.css file - .about-image-1 -->
+                          <div
+                            class="divider divider-image about-image-1 animate-in-up"
+                          ></div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- Content Block - Image Divider End -->
+
+                  <!-- Content Block - Achievements Start -->
+                  <div class="content__block grid-block">
+                    <div
+                      class="achievements d-flex flex-column flex-md-row align-items-md-stretch"
+                    >
+                      <div
+                        class="achievements__item d-flex flex-column grid-item animate-card-3"
+                      >
+                        <div class="achievements__card">
+                          <p class="achievements__number animate-in-up">8+</p>
+                          <p class="achievements__descr animate-in-up">
+                            Professional Experiences
+                          </p>
+                        </div>
+                      </div>
+                      <div
+                        class="achievements__item d-flex flex-column grid-item animate-card-3"
+                      >
+                        <div class="achievements__card">
+                          <p class="achievements__number animate-in-up">3+</p>
+                          <p class="achievements__descr animate-in-up">
+                            Years of experience
+                          </p>
+                        </div>
+                      </div>
+                      <div
+                        class="achievements__item d-flex flex-column grid-item animate-card-3"
+                      >
+                        <div class="achievements__card">
+                          <p class="achievements__number animate-in-up">20+</p>
+                          <p class="achievements__descr animate-in-up">
+                            Projects done
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- Content Block - Achievements End -->
+                </div>
+              </div>
+              <!-- Inner Section Content End -->
+
+              <!-- Inner Section Aside Start -->
+              <div class="col-12 col-xl-2"></div>
+              <!-- Inner Section Aside End -->
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Inner Section - About - End -->
+
+      <!-- Inner Section - Resume - Start -->
+      <section id="resume" class="inner inner-type-bottom resume">
+        <div class="inner__wrapper">
+          <div class="container-fluid p-0">
+            <div class="row g-0">
+              <!-- Inner Section Name Start -->
+              <div class="col-12 col-xl-2">
+                <div class="inner__name">
+                  <!-- Content Block - Section Name Start -->
+                  <div class="content__block name-block">
+                    <span class="section-name icon-right animate-in-up">
+                      <span class="section-name-caption">Resume</span>
+                      <i class="ph ph-arrow-down-right"></i>
+                    </span>
+                  </div>
+                  <!-- Content Block - Section Name Start -->
+                </div>
+              </div>
+              <!-- Inner Section Name End -->
+
+              <!-- Inner Section Content Start -->
+              <div class="col-12 col-xl-8">
+                <div class="inner__content">
+                  <!-- Content Block - H2 Section Title Start -->
+                  <div class="content__block section-tagline-title">
+                    <div class="block__descr">
+                      <h2 class="reveal-type animate-in-up">The journey</h2>
+                    </div>
+                  </div>
+                  <!-- Content Block - H2 Section Title End -->
+
+                  <!-- Content Block - My Education Start -->
+                  <div class="content__block pre-text-items">
+                    <!-- Section Subtitle Start -->
+                    <div class="block__subtitle">
+                      <p class="tagline-chapter animate-in-up">My education</p>
+                    </div>
+                    <!-- Section Subtitle End -->
+
+                    <!-- Resume Lines V1 Start -->
+                    <div class="container-fluid p-0 resume-lines">
+                      <div class="resume-divider animate-in-up"></div>
+                      <!-- resume single item -->
+                      <div class="row g-0 resume-lines__item">
+                        <div class="col-12 col-md-4 col-lg-2">
+                          <p
+                            class="resume-lines__date type-basic-160lh animate-in-up"
+                          >
+                            2019 - 2024
+                          </p>
+                        </div>
+                        <div class="col-12 col-md-4 col-lg-5">
+                          <h4 class="resume-lines__title animate-in-up">
+                            Engineering Degree in Computer Science, Specializing
+                            in Web and Internet Technologies
+                          </h4>
+                          <a
+                            class="resume-lines__source link-small-underline animate-in-up"
+                            href="https://www.esprit.tn/"
+                            target="_blank"
+                            >ESPRIT - Honoris Group</a
+                          >
+                        </div>
+                        <div class="col-12 col-md-4 col-lg-5">
+                          <p
+                            class="resume-lines__descr type-basic-160lh animate-in-up"
+                          >
+                            Accredited by the CTI and the Conférences des
+                            Grandes Ecoles, active member of the CDIO
+                            initiative.
+                          </p>
+                        </div>
+                      </div>
+                      <div class="resume-divider animate-in-up"></div>
+                      <!-- resume single item -->
+                      <div class="resume-divider animate-in-up"></div>
+                    </div>
+                    <!-- Resume Lines V1 End -->
+                  </div>
+                  <!-- Content Block - My Education End -->
+
+                  <!-- Content Block - Work Experience Start -->
+                  <div class="content__block pre-text-items">
+                    <!-- Section Subtitle Start -->
+                    <div class="block__subtitle">
+                      <p class="tagline-chapter animate-in-up">
+                        Work experience
+                      </p>
+                    </div>
+                    <!-- Section Subtitle End -->
+
+                    <!-- Resume Lines V1 Start -->
+                    <div class="container-fluid p-0 resume-lines">
+                      <div class="resume-divider animate-in-up"></div>
+                      <!-- resume single item -->
+                      <div class="row g-0 resume-lines__item">
+                        <div class="col-12 col-md-4 col-lg-2">
+                          <p
+                            class="resume-lines__date type-basic-160lh animate-in-up"
+                          >
+                            2020
+                          </p>
+                        </div>
+                        <div class="col-12 col-md-4 col-lg-5">
+                          <h4 class="resume-lines__title animate-in-up">
+                            Full-Stack Developer, Intern
+                          </h4>
+                          <p class="resume-lines__source small animate-in-up">
+                            at
+                            <a
+                              class="link-small-underline"
+                              href="https://octaplus-technology.com/"
+                              target="_blank"
+                              >Octa+ Technology</a
+                            >
+                            (Medenine, Tunisia)
+                          </p>
+                        </div>
+                        <div class="col-12 col-md-4 col-lg-5">
+                          <p
+                            class="resume-lines__descr type-basic-160lh animate-in-up"
+                          >
+                            • Gained valuable insight into the team operations
+                            of a tech company, fostering a strong understanding
+                            of development methodologies. <br />• Designed and
+                            developed a web invoicing system using PHP, HTML,
+                            CSS Javascript and MySQL.
+                          </p>
+                        </div>
+                      </div>
+                      <div class="resume-divider animate-in-up"></div>
+                      <!-- resume single item -->
+                      <div class="row g-0 resume-lines__item">
+                        <div class="col-12 col-md-4 col-lg-2">
+                          <p
+                            class="resume-lines__date type-basic-160lh animate-in-up"
+                          >
+                            2021 - 2022
+                          </p>
+                        </div>
+                        <div class="col-12 col-md-4 col-lg-5">
+                          <h4 class="resume-lines__title animate-in-up">
+                            Chief Digital Officer
+                          </h4>
+                          <p class="resume-lines__source small animate-in-up">
+                            at
+                            <a
+                              class="link-small-underline"
+                              href="https://lapresse.tn/2021/06/03/nawwa-la-premiere-plateforme-numerique-pour-les-personnes-agees/"
+                              target="_blank"
+                              >Nawwa</a
+                            >
+                            (Tunis, Tunisia)
+                          </p>
+                        </div>
+                        <div class="col-12 col-md-4 col-lg-5">
+                          <p
+                            class="resume-lines__descr type-basic-160lh animate-in-up"
+                          >
+                            • Led the project’s entire digital strategy,
+                            encompassing both IT (Platform development),
+                            branding and marketing efforts. <br />• Fostered
+                            collaboration between 4 developers, and a 6
+                            marketers for a cohesive brand identity across all
+                            touchpoints. <br />• Oversaw and contributed to the
+                            development of the platform, using Java, Spring
+                            Boot, Angular and MySQL. <br />• Interviewed users
+                            and service providers to incorporate their feedback
+                            for continuous UX improvement. <br />• Executed a
+                            targeted branding and marketing campaign, resulting
+                            in the enrollment of 23 service providers within the
+                            platform.
+                          </p>
+                        </div>
+                      </div>
+                      <div class="resume-divider animate-in-up"></div>
+                      <!-- resume single item -->
+                      <div class="row g-0 resume-lines__item">
+                        <div class="col-12 col-md-4 col-lg-2">
+                          <p
+                            class="resume-lines__date type-basic-160lh animate-in-up"
+                          >
+                            2022
+                          </p>
+                        </div>
+                        <div class="col-12 col-md-4 col-lg-5">
+                          <h4 class="resume-lines__title animate-in-up">
+                            Software Developer, Intern
+                          </h4>
+                          <p class="resume-lines__source small animate-in-up">
+                            at
+                            <a
+                              class="link-small-underline"
+                              href="https://www.neoledge.com/"
+                              target="_blank"
+                              >Neoledge</a
+                            >
+                            (Tunis, Tunisia)
+                          </p>
+                        </div>
+                        <div class="col-12 col-md-4 col-lg-5">
+                          <p
+                            class="resume-lines__descr type-basic-160lh animate-in-up"
+                          >
+                            • Developed a notification management and tracking
+                            platform using C# .NET, MVC, Vue.js and Microsoft
+                            SQL Server. <br />• Used Vuetify library to make a
+                            responsive interfaces and integrated CKeditor to
+                            facilitate the user experience by saving and
+                            providing notification templates. <br />•
+                            Incorporated SignalR to allow server‐side code to
+                            update content to users in real‐time.
+                          </p>
+                        </div>
+                      </div>
+                      <div class="resume-divider animate-in-up"></div>
+                      <div class="row g-0 resume-lines__item">
+                        <div class="col-12 col-md-4 col-lg-2">
+                          <p
+                            class="resume-lines__date type-basic-160lh animate-in-up"
+                          >
+                            2022
+                          </p>
+                        </div>
+                        <div class="col-12 col-md-4 col-lg-5">
+                          <h4 class="resume-lines__title animate-in-up">
+                            Opener - Solo Talent
+                          </h4>
+                          <p class="resume-lines__source small animate-in-up">
+                            at
+                            <a
+                              class="link-small-underline"
+                              href="https://open-startup.org/"
+                              target="_blank"
+                              >Open Startup</a
+                            >
+                            (Tunis, Tunisia)
+                          </p>
+                        </div>
+                        <div class="col-12 col-md-4 col-lg-5">
+                          <p
+                            class="resume-lines__descr type-basic-160lh animate-in-up"
+                          >
+                            • Participated in the OST Pre-Incubator program,
+                            co-designed with Columbia Engineering and Columbia
+                            Business School
+                            <br />• Gained a deep understanding of the startup
+                            lifecycle: ideation, customer discovery, product
+                            development, fundraising, etc. <br />• Engaged in
+                            highly interactive and hands-on activities to apply
+                            learning in practice <br />• Received mentorship
+                            from experienced entrepreneurs, refining business
+                            ideas and connecting with potential customers and
+                            investors <br />• Developed skills to navigate
+                            startup challenges, bridging IT knowledge with the
+                            business side of startups
+                          </p>
+                        </div>
+                      </div>
+                      <div class="resume-divider animate-in-up"></div>
+                      <div class="row g-0 resume-lines__item">
+                        <div class="col-12 col-md-4 col-lg-2">
+                          <p
+                            class="resume-lines__date type-basic-160lh animate-in-up"
+                          >
+                            2022
+                          </p>
+                        </div>
+                        <div class="col-12 col-md-4 col-lg-5">
+                          <h4 class="resume-lines__title animate-in-up">
+                            Full-Stack Developer & Marketer, Freelancer
+                          </h4>
+                          <p class="resume-lines__source small animate-in-up">
+                            at
+                            <a
+                              class="link-small-underline"
+                              href="https://www.linkedin.com/company/bennahomemade/about/"
+                              target="_blank"
+                              >Benna</a
+                            >
+                            (Tunis, Tunisia)
+                          </p>
+                        </div>
+                        <div class="col-12 col-md-4 col-lg-5">
+                          <p
+                            class="resume-lines__descr type-basic-160lh animate-in-up"
+                          >
+                            • Developed and maintained the full-stack web
+                            platform for Benna, facilitating the delivery of
+                            homemade meals to customers, using Java/SpringBoot &
+                            Angular.
+                            <br />• Designed and optimized user interfaces for a
+                            seamless ordering and delivery experience.
+                          </p>
+                        </div>
+                      </div>
+                      <div class="resume-divider animate-in-up"></div>
+                      <div class="row g-0 resume-lines__item">
+                        <div class="col-12 col-md-4 col-lg-2">
+                          <p
+                            class="resume-lines__date type-basic-160lh animate-in-up"
+                          >
+                            2023
+                          </p>
+                        </div>
+                        <div class="col-12 col-md-4 col-lg-5">
+                          <h4 class="resume-lines__title animate-in-up">
+                            Software Developer
+                          </h4>
+                          <p class="resume-lines__source small animate-in-up">
+                            at
+                            <a
+                              class="link-small-underline"
+                              href="https://youtu.be/E28sTyxNnC0?si=sujc8-Yi1iiYqHgI"
+                              target="_blank"
+                              >Minassa</a
+                            >
+                            (Tunis, Tunisia)
+                          </p>
+                        </div>
+                        <div class="col-12 col-md-4 col-lg-5">
+                          <p
+                            class="resume-lines__descr type-basic-160lh animate-in-up"
+                          >
+                            • Implemented a social engagement platform,
+                            facilitating community interaction with their local
+                            authorities virtually, using MERN stack.
+                            <br />• Developed functionalities to track the
+                            progress of projects, funds and alignment with the
+                            sustainable development goals. <br />• Designed
+                            application diagrams using Drawio, introduced 100%
+                            automated test coverage with Mocha. <br />•
+                            Incorporated third-party APIs (e.g facial and voice
+                            recognition, online payment ...) ensuring the
+                            integrity of surveying and authentication. <br />•
+                            Implemented Jenkins CI/CD pipeline, integrating
+                            Docker, docker-compose, Sonarqube, Nexus, Grafana,
+                            and Prometheus, reducing deployment time by 60% and
+                            enhancing the platform's efficiency and monitoring
+                            capabilities.
+                          </p>
+                        </div>
+                      </div>
+                      <div class="resume-divider animate-in-up"></div>
+                      <div class="row g-0 resume-lines__item">
+                        <div class="col-12 col-md-4 col-lg-2">
+                          <p
+                            class="resume-lines__date type-basic-160lh animate-in-up"
+                          >
+                            2023
+                          </p>
+                        </div>
+                        <div class="col-12 col-md-4 col-lg-5">
+                          <h4 class="resume-lines__title animate-in-up">
+                            Software Engineer, Intern
+                          </h4>
+                          <p class="resume-lines__source small animate-in-up">
+                            at
+                            <a
+                              class="link-small-underline"
+                              href="https://www.careerboosts.com/"
+                              target="_blank"
+                              >CareerBoosts</a
+                            >
+                            (Québec, Canada - Remote)
+                          </p>
+                        </div>
+                        <div class="col-12 col-md-4 col-lg-5">
+                          <p
+                            class="resume-lines__descr type-basic-160lh animate-in-up"
+                          >
+                            • Accomplished integration of a smart recruitment
+                            SaaS platform with SAP Success Factors ensuring
+                            seamless data synchronization and backend automation
+                            using SAP SuccessFactors' API and FastAPI, and
+                            building user‐friendly and responsive interface
+                            using Next.js.
+                            <br />• Streamlined workflow and reduced manual
+                            intervention, leading to automated assessment
+                            creation and distribution and enabling score listing
+                            on the SuccessFactors dashboard. <br />•
+                            Collaborated in an agile manner with
+                            cross-functionnal team sprints, participated in 100%
+                            of daily scrums and demo days. deployment time by
+                            60% and enhancing the platform's efficiency and
+                            monitoring capabilities.
+                          </p>
+                        </div>
+                      </div>
+                      <div class="resume-divider animate-in-up"></div>
+                      <div class="row g-0 resume-lines__item">
+                        <div class="col-12 col-md-4 col-lg-2">
+                          <p
+                            class="resume-lines__date type-basic-160lh animate-in-up"
+                          >
+                            2024
+                          </p>
+                        </div>
+                        <div class="col-12 col-md-4 col-lg-5">
+                          <h4 class="resume-lines__title animate-in-up">
+                            Founding Software Engineer
+                          </h4>
+                          <p class="resume-lines__source small animate-in-up">
+                            at
+                            <a
+                              class="link-small-underline"
+                              href="https://tendanz.com/"
+                              target="_blank"
+                              >Tendanz</a
+                            >
+                            (Paris, France)
+                          </p>
+                        </div>
+                        <div class="col-12 col-md-4 col-lg-5">
+                          <p
+                            class="resume-lines__descr type-basic-160lh animate-in-up"
+                          >
+                            • Collaborated with the CEO to understand business
+                            needs and develop a technical roadmap and design for
+                            the insuretech “Avektoi”.
+                            <br />• Architected and deployed end-to-end
+                            microservices using Node.js, Express, and
+                            PostgreSQL, leveraging AWS for cloud deployment.
+                            <br />• Led the integration of user and business
+                            partner onboarding features, incorporating
+                            eSignature, payment processing, subscription
+                            management, policy administration, claims handling,
+                            and feedback systems.
+                          </p>
+                        </div>
+                      </div>
+                      <div class="resume-divider animate-in-up"></div>
+                    </div>
+                    <!-- Resume Lines V1 End -->
+                  </div>
+                  <!-- Content Block - Work Experience End -->
+
+                  <!-- Content Block - Tools Cards Start -->
+                  <div class="content__block grid-block pre-text-items">
+                    <!-- Section Subtitle Start -->
+                    <div class="block__subtitle grid-block-subtitle">
+                      <p class="tagline-chapter animate-in-up">
+                        My favourite tools
+                      </p>
+                    </div>
+                    <!-- Section Subtitle End -->
+
+                    <!-- Tools Cards Start -->
+                    <div
+                      class="tools-cards d-flex justify-content-start flex-wrap"
+                    >
+                      <!-- tools single item -->
+                      <div
+                        class="tools-cards__item d-flex grid-item animate-card-4"
+                      >
+                        <div class="tools-cards__card">
+                          <img
+                            class="tools-cards__icon animate-in-up"
+                            src="img/icons/java-icon.svg"
+                            alt="Tools Icon"
+                          />
+                          <h6
+                            class="tools-cards__caption tagline-tool animate-in-up"
+                          >
+                            Java
+                          </h6>
+                        </div>
+                      </div>
+                      <!-- tools single item -->
+                      <div
+                        class="tools-cards__item d-flex grid-item animate-card-4"
+                      >
+                        <div class="tools-cards__card">
+                          <img
+                            class="tools-cards__icon animate-in-up"
+                            src="img/icons/javascript-icon.svg"
+                            alt="Tools Icon"
+                          />
+                          <h6
+                            class="tools-cards__caption tagline-tool animate-in-up"
+                          >
+                            JS
+                          </h6>
+                        </div>
+                      </div>
+                      <!-- tools single item -->
+                      <div
+                        class="tools-cards__item d-flex grid-item animate-card-4"
+                      >
+                        <div class="tools-cards__card">
+                          <img
+                            class="tools-cards__icon animate-in-up"
+                            src="img/icons/springio-icon.svg"
+                            alt="Tools Icon"
+                          />
+                          <h6
+                            class="tools-cards__caption tagline-tool animate-in-up"
+                          >
+                            Springboot
+                          </h6>
+                        </div>
+                      </div>
+                      <!-- tools single item -->
+                      <div
+                        class="tools-cards__item d-flex grid-item animate-card-4"
+                      >
+                        <div class="tools-cards__card">
+                          <img
+                            class="tools-cards__icon animate-in-up"
+                            src="img/icons/reactjs-icon.svg"
+                            alt="Tools Icon"
+                          />
+                          <h6
+                            class="tools-cards__caption tagline-tool animate-in-up"
+                          >
+                            React
+                          </h6>
+                        </div>
+                      </div>
+                      <!-- tools single item -->
+                      <div
+                        class="tools-cards__item d-flex grid-item animate-card-4"
+                      >
+                        <div class="tools-cards__card">
+                          <img
+                            class="tools-cards__icon animate-in-up"
+                            src="img/icons/nodejs-icon.svg"
+                            alt="Tools Icon"
+                          />
+                          <h6
+                            class="tools-cards__caption tagline-tool animate-in-up"
+                          >
+                            Node
+                          </h6>
+                        </div>
+                      </div>
+                      <!-- tools single item -->
+                      <div
+                        class="tools-cards__item d-flex grid-item animate-card-4"
+                      >
+                        <div class="tools-cards__card">
+                          <img
+                            class="tools-cards__icon animate-in-up"
+                            src="img/icons/docker-icon.svg"
+                            alt="Tools Icon"
+                          />
+                          <h6
+                            class="tools-cards__caption tagline-tool animate-in-up"
+                          >
+                            Docker
+                          </h6>
+                        </div>
+                      </div>
+                      <!-- tools single item -->
+                      <div
+                        class="tools-cards__item d-flex grid-item animate-card-4"
+                      >
+                        <div class="tools-cards__card">
+                          <img
+                            class="tools-cards__icon animate-in-up"
+                            src="img/icons/aws-icon.svg"
+                            alt="Tools Icon"
+                          />
+                          <h6
+                            class="tools-cards__caption tagline-tool animate-in-up"
+                          >
+                            AWS
+                          </h6>
+                        </div>
+                      </div>
+                      <!-- tools single item -->
+                      <div
+                        class="tools-cards__item d-flex grid-item animate-card-4"
+                      >
+                        <div class="tools-cards__card">
+                          <img
+                            class="tools-cards__icon animate-in-up"
+                            src="img/icons/PHP-Logo.svg"
+                            alt="Tools Icon"
+                          />
+                          <h6
+                            class="tools-cards__caption tagline-tool animate-in-up"
+                          >
+                            PHP
+                          </h6>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- Tools Cards End -->
+                  </div>
+                  <!-- Content Block - Tools Cards End -->
+                </div>
+              </div>
+              <!-- Inner Section Content End -->
+
+              <!-- Inner Section Aside Start -->
+              <div class="col-12 col-xl-2"></div>
+              <!-- Inner Section Aside End -->
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Inner Section - Resume - End -->
+
+      <!-- Inner Section - Contact - Start -->
+      <section
+        id="contact"
+        class="inner contact inner-grid-bottom no-padding-bottom"
+      >
+        <div class="inner__wrapper">
+          <div class="container-fluid p-0">
+            <div class="row g-0">
+              <!-- Inner Section Name Start -->
+              <div class="col-12 col-xl-2">
+                <div class="inner__name">
+                  <!-- Content Block - Section Name Start -->
+                  <div class="content__block name-block">
+                    <span class="section-name icon-right animate-in-up">
+                      <span class="section-name-caption">Contact</span>
+                      <i class="ph ph-arrow-down-right"></i>
+                    </span>
+                  </div>
+                  <!-- Content Block - Section Name Start -->
+                </div>
+              </div>
+              <!-- Inner Section Name End -->
+
+              <!-- Inner Section Content Start -->
+              <div class="col-12 col-xl-8">
+                <div class="inner__content">
+                  <!-- Content Block - H2 Section Title Start -->
+                  <div class="content__block section-form-title">
+                    <div class="block__descr">
+                      <h2 class="reveal-type animate-in-up">Just say hello!</h2>
+                      <p class="h2__text type-basic-160lh animate-in-up">
+                        Want to know more about me, tell me about your project
+                        or just to say hello? Drop me a line and I'll get back
+                        as soon as possible.
+                      </p>
+                    </div>
+                  </div>
+                  <!-- Content Block - H2 Section Title End -->
+
+                  <!-- Content Block - Contact Form Start -->
+                  <div class="content__block grid-block pre-grid-items">
+                    <div class="form-container">
+                      <!-- Reply Messages Start -->
+                      <div class="form__reply centered text-center">
+                        <i class="ph-thin ph-smiley reply__icon"></i>
+                        <p class="reply__title">Done!</p>
+                        <span class="reply__text"
+                          >Thanks for your message. I'll get back as soon as
+                          possible.</span
+                        >
+                      </div>
+                      <div class="footer__btn animate-in-up">
+                        <a
+                          href="mailto:rayen.bourguiba01@gmail.com?subject=Message%20from%20your%20site"
+                          class="btn btn-circle-icon hover-circle"
+                        >
+                          <em></em>
+                          <i class="ph-light ph-arrow-right"></i>
+                        </a>
+                      </div>
+                      <!-- Reply Messages End -->
+                    </div>
+                  </div>
+                  <!-- Content Block - Contact Form End -->
+
+                  <!-- Content Block - Socials Cards Start -->
+                  <div class="content__block grid-block">
+                    <ul
+                      class="socials-cards d-flex justify-content-start flex-wrap"
+                    >
+                      <!-- socials cards single item -->
+                      <li
+                        class="socials-cards__item grid-item d-flex animate-card-5"
+                      >
+                        <a
+                          class="socials-cards__link d-flex align-items-center justify-content-center"
+                          href="https://github.com/RayenBourguiba"
+                          target="_blank"
+                        >
+                          <em></em>
+                          <i class="ph ph-github-logo"></i>
+                        </a>
+                      </li>
+                      <!-- socials cards single item -->
+                      <li
+                        class="socials-cards__item grid-item d-flex animate-card-5"
+                      >
+                        <a
+                          class="socials-cards__link d-flex align-items-center justify-content-center"
+                          href="https://www.behance.net/rayenbourguiba"
+                          target="_blank"
+                        >
+                          <em></em>
+                          <i class="ph ph-behance-logo"></i>
+                        </a>
+                      </li>
+                      <!-- socials cards single item -->
+                      <li
+                        class="socials-cards__item grid-item d-flex animate-card-5"
+                      >
+                        <a
+                          class="socials-cards__link d-flex align-items-center justify-content-center"
+                          href="https://www.linkedin.com/in/rayen-bourguiba/"
+                          target="_blank"
+                        >
+                          <em></em>
+                          <i class="ph ph-linkedin-logo"></i>
+                        </a>
+                      </li>
+                      <!-- socials cards single item -->
+                    </ul>
+                  </div>
+                  <!-- Content Block - Socials Cards End -->
+
+                  <!-- Footer Start -->
+                  <footer class="footer">
+                    <div class="container-fluid p-0">
+                      <div class="row g-0">
+                        <div class="col-12">
+                          <!-- Content Block - Contact Data Start -->
+                          <div class="content__block grid-block">
+                            <div class="container-fluid p-0 contact-data">
+                              <div class="row g-0">
+                                <div
+                                  class="col-12 col-lg-3 contact-data__item grid-item"
+                                >
+                                  <a
+                                    href="#home"
+                                    class="footer-logo logo-text animate-in-up"
+                                  >
+                                    <!-- logo icon -->
+                                    <svg
+                                      version="1.1"
+                                      id="Layer_1"
+                                      xmlns="http://www.w3.org/2000/svg"
+                                      xmlns:xlink="http://www.w3.org/1999/xlink"
+                                      x="0px"
+                                      y="0px"
+                                      viewBox="0 0 50 50"
+                                      style="enable-background: new 0 0 50 50"
+                                      xml:space="preserve"
+                                    >
+                                      <style type="text/css">
+                                        .st0 {
+                                          fill: #ffffff;
+                                        }
+                                      </style>
+                                      <path
+                                        class="st0"
+                                        d="M33.4,50H16.7C7.5,50,0,42.5,0,33.3V16.7C0,7.5,7.5,0,16.7,0h16.7C42.5,0,50,7.5,50,16.7v16.7
+                                    C50,42.5,42.5,50,33.4,50z"
+                                      />
+                                      <g>
+                                        <g>
+                                          <g>
+                                            <defs>
+                                              <path
+                                                id="SVGID_1_"
+                                                d="M33.4,50H16.7C7.5,50,0,42.5,0,33.3V16.7C0,7.5,7.5,0,16.7,0h16.7C42.5,0,50,7.5,50,16.7v16.7
+                                            C50,42.5,42.5,50,33.4,50z"
+                                              />
+                                            </defs>
+                                            <clipPath id="SVGID_2_">
+                                              <use
+                                                xlink:href="#SVGID_1_"
+                                                style="overflow: visible"
+                                              />
+                                            </clipPath>
+                                          </g>
+                                        </g>
+                                      </g>
+                                      <g
+                                        transform="translate(0.000000,1080.000000) scale(0.100000,-0.100000)"
+                                      >
+                                        <path
+                                          d="M106.1,10450.1v-78.2h13h13v39.2v39.2h26.2h26.2v-13v-13h13h13v13v13h6.5h6.5v13v13h13h13v13v13h-13h-13v13v13h-58.7h-58.7
+                                      C106.1,10528.3,106.1,10450.1,106.1,10450.1z M223.5,10489.3v-13h-45.7h-45.7v13v13h45.7h45.7V10489.3z"
+                                        />
+                                        <path
+                                          d="M276,10450.1v-78.2h52.2h52.2v13v13h13h13v19.5v19.5h-13h-13v-19.5v-19.5h-39.2H302v19.7v19.7h39.2h39.2v13v13h13h13v19.5
+                                      v19.5h-13h-13v13v13h-52.2H276V10450.1z M380.5,10482.8v-19.5h-39.2H302v19.5v19.5h39.2h39.2L380.5,10482.8L380.5,10482.8z"
+                                        />
+                                        <path
+                                          d="M210.5,10410.9v-13h13h13v-13v-13h13h13v13v13h-13h-13v13v13h-13h-13V10410.9z"
+                                        />
+                                      </g>
+                                    </svg>
+
+                                    <!-- logo text -->
+                                    <span>Rayen Bourguiba</span>
+                                  </a>
+                                </div>
+                                <div
+                                  class="col-12 col-md-4 col-lg-3 contact-data__item grid-item"
+                                >
+                                  <p
+                                    class="contact-data__title tagline-chapter animate-in-up"
+                                  >
+                                    Location
+                                  </p>
+                                  <p
+                                    class="contact-data__text small type-basic-160lh"
+                                  >
+                                    <a
+                                      class="link-small-160lh animate-in-up"
+                                      href="https://maps.app.goo.gl/pyPN9ByrVbpvXdXm9"
+                                      target="_blank"
+                                      >Paris, France</a
+                                    >
+                                  </p>
+                                </div>
+                                <div
+                                  class="col-12 col-md-4 col-lg-3 contact-data__item grid-item"
+                                >
+                                  <p
+                                    class="contact-data__title tagline-chapter animate-in-up"
+                                  >
+                                    Phone
+                                  </p>
+                                  <p
+                                    class="contact-data__text small type-basic-160lh"
+                                  >
+                                    <a
+                                      class="link-small-160lh animate-in-up"
+                                      href="tel:+21699137982"
+                                      >+216 99 137 982</a
+                                    >
+                                    <br />
+                                    <a
+                                      class="link-small-160lh animate-in-up"
+                                      href="tel:+33605993236"
+                                      >+33 6 05 99 32 36</a
+                                    >
+                                  </p>
+                                </div>
+                                <div
+                                  class="col-12 col-md-4 col-lg-3 contact-data__item grid-item"
+                                >
+                                  <p
+                                    class="contact-data__title tagline-chapter animate-in-up"
+                                  >
+                                    Email
+                                  </p>
+                                  <p
+                                    class="contact-data__text small type-basic-160lh"
+                                  >
+                                    <a
+                                      class="link-small-160lh animate-in-up"
+                                      href="mailto:rayen.bourguiba01@gmail.com?subject=Message%20from%20your%20site"
+                                      >rayen.bourguiba01@gmail.com</a
+                                    >
+                                  </p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <!-- Content Block - Contact Data End -->
+                        </div>
+                      </div>
+                    </div>
+                  </footer>
+                  <!-- Footer End -->
+                </div>
+              </div>
+              <!-- Inner Section Content End -->
+
+              <!-- Inner Section Aside Start -->
+              <div class="col-12 col-xl-2"></div>
+              <!-- Inner Section Aside End -->
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Inner Section - Contact - End -->
+    </main>
+    <!-- Page Content End -->
+
+    <!-- Bottom Background Images Start -->
+    <div class="bottom__background bottom-bg-02">
+      <div class="bottom-bg-02__02 animate-card-2">
+        <img src="./img/marquee/settings.png" alt="Process" />
+      </div>
+      <div class="bottom-bg-02__01 animate-card-2">
+        <img src="./img/marquee/cloud.png" alt="Cloud" />
+      </div>
     </div>
-  </div>
-  <div class="header__buttons">
-    <a href="#0" class="button button-outline button-mobile-square" target="_blank">
-      <i class="fas fa-shopping-cart"></i>
-      <span class="button-caption">Purchase Now</span>
-    </a>
-    <a href="https://mixdesign.club/themeforest/blayden/" class="button button-solid button-mobile-square" target="_blank">
-      <i class="fas fa-eye"></i>
-      <span class="button-caption">Live Preview</span>
-    </a>
-  </div>
-</header>
-<!-- chapters--><section id="docs"><div class="container-fluid p-0"><div class="row no-gutters"><div class="docs-navigation affix" id="navbar"><ul class="nav nav-pills nav-stacked"><li><a href="#introduction">Introduction</a></li><li><a href="#installation">Installation</a></li><li><a href="#files-structure">Files Structure</a><ul class="inner-nav"><li><a class="inner-link" href="#demo-files">Demo Pages</a></li><li><a class="inner-link" href="#html-structure">HTML Structure</a></li><li><a class="inner-link" href="#css-structure">CSS Files</a></li><li><a class="inner-link" href="#js-libs">JS Libraries</a></li></ul></li><li><a href="#fonts">Fonts</a><ul class="inner-nav"><!--lia(href="#customfonts" class="inner-link") Custom Fonts--><li><a class="inner-link" href="#googlefonts">Google Fonts</a></li><!--lia(href="#liningnums" class="inner-link") Lining Nums Font
---><li><a class="inner-link" href="#phosphor">Phosphor Icons</a></li><li><a class="inner-link" href="#fontawesome">Fontawesome</a></li><!--lia(href="#ionicons" class="inner-link") Ionicons--></ul></li><li><a href="#favicon">Favicon and Apple Touch Icons</a></li><li><a href="#customization">Customization</a><ul class="inner-nav"><li><a class="inner-link" href="#preloader">Preloader</a></li><li><a class="inner-link" href="#colors">Color themes</a></li><li><a class="inner-link" href="#logo">Logo</a></li><li><a class="inner-link" href="#images">Images</a></li><li><a class="inner-link" href="#header">Header and Navigation</a></li><!--lia(href="#menu" class="inner-link") Navigation Menu--><li><a class="inner-link" href="#headline">Homescreen Layouts</a></li></ul></li><li><a href="#plugins">Plugins</a><ul class="inner-nav"><!--lia(href="#countdown" class="inner-link") Countdown--><li><a class="inner-link" href="#typedjs">Animated Headline</a></li><!--lia(href="#textillate" class="inner-link") Animated Headline--><li><a class="inner-link" href="#swiper">Swiper Slider</a></li><!--lia(href="#skillbars" class="inner-link") Skillbars--><li><a class="inner-link" href="#magnific">Magnific Popup</a></li><li><a class="inner-link" href="#gallery">Photoswipe Gallery</a></li></ul></li><li><a href="#backgrounds">Animated Backgrounds</a><ul class="inner-nav"><!--lia(href="#svgObjects" class="inner-link") SVG Objects--><li><a class="inner-link" href="#parallaxImage">Parallax Images</a></li><!--lia(href="#animatedGradients" class="inner-link") Animated Gradients--><!--lia(href="#particles" class="inner-link") Particles--><!--lia(href="#snow" class="inner-link") Snow--><!--lia(href="#space" class="inner-link") Space--><!--lia(href="#triangles" class="inner-link") Triangles--><!--lia(href="#nightsky" class="inner-link") Night Sky--><!--lia(href="#sunshinebokeh" class="inner-link") Sunshine Bokeh
---><!--lia(href="#polygons" class="inner-link") Polygons--><!--lia(href="#kenburns" class="inner-link") Kenburns--><!--lia(href="#video" class="inner-link") Youtube Video--><!--lia(href="#video-local" class="inner-link") HTML5 Video--><!--lia(href="#clouds" class="inner-link") Floating Clouds--><!--lia(href="#sparkles" class="inner-link") Sparkles--></ul></li><li><a href="#forms">Forms</a><ul class="inner-nav"><!--lia(href="#subscription-form" class="inner-link") Mailchimp Subscription Form--><li><a class="inner-link" href="#contact-forms">Contact Form</a></li></ul></li><!--lia(href="#google-maps") Google Maps--><li><a href="#gulp-project">BlaydenGULP</a></li><li><a href="#changelog">Changelog</a></li><li><a href="#credits">Credits</a></li></ul></div><div class="docs-content"><div class="headline">
-  <h1>Blayden - Personal Portfolio & Resume HTML Template Documentation</h1>
-  <p class="help-text">
-    by:
-    <a href="https://1.envato.market/EKA9WD" target="_blank">mix_design</a>
-    <br>
-    version: 1.0.0
-    <br>
-    created: 14.05.2024
-    <br>
-    last update: 14.05.2024
-  </p>
-</div>
-<div class="docs__item" id="introduction">
-  <div class="docs__title">
-    <p class="number">01</p>
-    <h2 class="title">Introduction</h2>
-  </div>
-  <div class="docs__content">
-    <p>
-      Thank you for choosing Blayden - personal portfolio and resume HTML template. We have prepared detailed 
-      documentation to make Blayden 
-      customization an easy task for you.
-      If you have any questions that are beyond the scope of this help file, you can email us on
-      <span>
-        <a href="mailto:support@mixdesign.club" target="_blank">support@mixdesign.club</a>.
-      </span>
-    </p>
-    <p> We would be very happy if you could rate this item
-      <span>
-        <a href="https://themeforest.net/downloads" target="_blank">here</a>
-      </span>
-      with 5 stars. Your feedback is very important so
-      <span>
-        <a href="https://themeforest.net/user/mix_design" target="_blank">write us a line</a>
-      </span> 😀!
-    </p>
-  </div>
-</div>
-<div class="docs__item" id="installation">
-  <div class="docs__title">
-    <p class="number">02</p>
-    <h2 class="title">Installation</h2>
-  </div>
-  <div class="docs__content">
-    <p>Follow the steps below to setup your site template:</p>
-    <ol>
-      <li>
-        <p>In order to start working with Blayden unzip the downloaded package and open <span>HTML</span> folder to find all 
-          ready-to-use template files.
-          Choose one of the demo <span>*.html</span> files (any ready-to-use demo you like) and rename it to <span>index.html</span>.
-        </p>
-      </li>
-      <li>
-        <p>Next you'll need to prepare a project for customization. Below is a list of files and folders that are required 
-          in the root directory of your project:</p>
-        <ul>
-          <li><code>index.html</code> - your chosen <span>*.html</span> file (renamed already);</li>
-          <li><code>css</code> folder - stylesheet files;</li>
-          <li><code>js</code> folder - JavaScript files;</li>
-          <li><code>fonts</code> folder - icon fonts files;</li>
-          <li><code>img</code> folder for project images and favicon;</li>
-          <!--<li><code>video</code> folder - project video files;</li>-->
-          <li><code>mail.php</code> file for sending e-mails;</li>
-          <li><code>.htaccess</code>  - this file contain rules for files caching on web server;</li>
-        </ul>
-      </li>
-      <li>
-        <p>The other files can be used according to your preferences.</p>
-      </li>
-      <li>
-        <p>Your project is ready to go! Now you can start adding your texts, images and video to your new awesome website.</p>
-      </li>
-      <li>
-        <p>After the customization is over, you'll need to upload the project files to your hosting web server using FTP 
-          client or cPanel interface in order to use it on your website.
-        </p>
-      </li>
-    </ol>
-  </div>
-</div>
-<div class="docs__item" id="files-structure"><div class="docs__title"><p class="number">03</p><h2 class="title">Files Structure</h2></div><div class="docs__content"><p>After downloading and extracting template package you will find 3 folders:</p>
-<ul>
-  <li><span>HTML: </span>ready to use HTML template;</li>
-  <li><span>BlaydenGULP: </span>if you want to totally customize Blayden, you can use this template;</li>
-  <li><span>Documentation: </span>this help file.</li>
-</ul>
-<p>This section describes
-  <code>HTML</code>
-  folder structure. More about
-  <code>BlaydenGULP</code>
-  folder structure you can find out in
-  <span><a href="#gulp-project">BlaydenGULP</a></span>
-  section.
-</p>
-<p>Blayden is one page HTML template. So, mostly you will need one
-  <code>*.html</code>
-  file and supporting
-  <code>*.css</code>,
-  <code>*.js</code>,
-  <code>*.php</code>
-  files with some images. All the directories and files are well organized as it shown on the image bellow.
-</p>
-<img src="img/structure/1.jpg" alt="Files Structure Image">
-<ul>
-  <li>all HTML files are located in the root directory;</li>
-  <li>separate folders are created for CSS files, JavaScript files, fonts, images and video;</li>
-  <li><code>source-files</code> folder contains all expanded CSS files, expanded JavaScript files, plugins and components files;</li>
-  <li><code>mail.php</code> file for sending e-mails is located in the root directory;</li>
-  <li><code>.htaccess</code> file is located in the root directory. This file contain rules for files caching on web server.</li>
-</ul>
-<div id="demo-files" class="content__item">
-  <h3>Demo Pages</h3>
-  <p>Blayden is one page HTML template and comes with dark and light color themes and 3 ready-to-use demo pages
-    with various elements:</p>
+    <!-- Bottom Background Images End -->
 
-  <div class="container-fluid p-0 demo-container">
-    <div class="row no-gutters">
-      <div class="col-xs-12 col-sm-6 col-lg-6">
-        <a class="demo-item" href="https://mixdesign.club/themeforest/blayden/index-demo-1.html" target="_blank">
-          <img src="img/structure/demos/1.webp" alt="Blayden Demo Image">
-          <span>Demo page #1</span>
-        </a>
-      </div>
-      <div class="col-xs-12 col-sm-6 col-lg-6">
-        <a class="demo-item" href="https://mixdesign.club/themeforest/blayden/index-demo-2.html" target="_blank">
-          <img src="img/structure/demos/2.webp" alt="Blayden Demo Image">
-          <span>Demo page #2</span>
-        </a>
-      </div>
-      <div class="col-xs-12 col-sm-6 col-lg-6">
-        <a class="demo-item" href="https://mixdesign.club/themeforest/blayden/index-demo-3.html" target="_blank">
-          <img src="img/structure/demos/3.webp" alt="Blayden Demo Image">
-          <span>Demo page #3</span>
-        </a>
+    <!-- Mobile Menu Bottom Placeholder Start -->
+    <div class="header-offset"></div>
+    <!-- Mobile Menu Bottom Placeholder End -->
+
+    <!-- To Top Button Start -->
+    <a href="#0" id="to-top" class="btn btn-to-top slide-up">
+      <i class="ph ph-arrow-up"></i>
+    </a>
+    <!-- To Top Button End -->
+
+    <!-- Root element of PhotoSwipe. Must have class pswp. -->
+    <div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+      <!-- Background of PhotoSwipe.
+      It's a separate element, as animating opacity is faster than rgba(). -->
+      <div class="pswp__bg"></div>
+
+      <!-- Slides wrapper with overflow:hidden. -->
+      <div class="pswp__scroll-wrap">
+        <!-- Container that holds slides. PhotoSwipe keeps only 3 slides in DOM to save memory. -->
+        <!-- don't modify these 3 pswp__item elements, data is added later on. -->
+        <div class="pswp__container">
+          <div class="pswp__item"></div>
+          <div class="pswp__item"></div>
+          <div class="pswp__item"></div>
+        </div>
+
+        <!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
+        <div class="pswp__ui pswp__ui--hidden">
+          <div class="pswp__top-bar">
+            <!--  Controls are self-explanatory. Order can be changed. -->
+
+            <div class="pswp__counter"></div>
+
+            <button
+              class="pswp__button pswp__button--close link-s"
+              title="Close (Esc)"
+            ></button>
+
+            <button
+              class="pswp__button pswp__button--share link-s"
+              title="Share"
+            ></button>
+
+            <button
+              class="pswp__button pswp__button--fs link-s"
+              title="Toggle fullscreen"
+            ></button>
+
+            <button
+              class="pswp__button pswp__button--zoom link-s"
+              title="Zoom in/out"
+            ></button>
+
+            <!-- Preloader demo http://codepen.io/dimsemenov/pen/yyBWoR -->
+            <!-- element will get class pswp__preloader-active when preloader is running -->
+            <div class="pswp__preloader">
+              <div class="pswp__preloader__icn">
+                <div class="pswp__preloader__cut">
+                  <div class="pswp__preloader__donut"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap"
+          >
+            <div class="pswp__share-tooltip"></div>
+          </div>
+
+          <button
+            class="pswp__button pswp__button--arrow--left link-s"
+            title="Previous (arrow left)"
+          ></button>
+
+          <button
+            class="pswp__button pswp__button--arrow--right link-s"
+            title="Next (arrow right)"
+          ></button>
+
+          <div class="pswp__caption">
+            <div class="pswp__caption__center"></div>
+          </div>
+        </div>
       </div>
     </div>
-  </div>
 
-</div>
-<div class="content__item" id="html-structure">
-  <h3>HTML structure</h3>
-  <p>Blayden has a simple and easy to customize structure based on
-    <a href="https://getbootstrap.com/" target="_blank">Bootstrap 5.3.2 Grid</a>.
-    Here is a sample page structure:
-  </p>
-  <pre>
-    <code class="language-html">
-      &lt;!DOCTYPE html&gt;
-      &lt;html lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;
-      
-        &lt;head&gt;
-          Meta tags, Title, Favicon and Icons, Facebook Metadata, CSS, Custom Browser Color
-        &lt;/head&gt;
-      
-        &lt;body&gt;
-      
-          &lt;!-- Loader Start --&gt;
-          &lt;div id=&quot;loader&quot; class=&quot;loader&quot;&gt;
-            ...
-          &lt;/div&gt;
-          &lt;!-- Loader End --&gt;
-      
-          &lt;!-- Header Start --&gt;
-          &lt;header id=&quot;header&quot; class=&quot;header d-flex justify-content-center loading__fade&quot;&gt;
-            ...
-          &lt;/header&gt;
-          &lt;!-- Header End --&gt;
-      
-          &lt;!-- Fixed Logo Start --&gt;
-          &lt;div class=&quot;logo loading__fade&quot;&gt;
-            ...
-          &lt;/div&gt;
-          &lt;!-- Fixed Logo End --&gt;
-      
-          &lt;!-- Fixed Color Switch Start --&gt;
-          &lt;div class=&quot;color loading__fade&quot;&gt;
-            ...
-          &lt;/div&gt;
-          &lt;!-- Fixed Color Switch End --&gt;
-      
-          &lt;!-- Page Content Start --&gt;
-          &lt;main id=&quot;page-content&quot; class=&quot;page-content&quot;&gt;
-      
-            &lt;!-- Main Section Start --&gt;
-            &lt;section id=&quot;home&quot; class=&quot;main home&quot;&gt;
-              ...
-            &lt;/section&gt;
-            &lt;!-- Main Section End --&gt;
-      
-            &lt;!-- Inner Section - Portfolio - Start --&gt;
-            &lt;section id=&quot;portfolio&quot; class=&quot;inner inner-grid-bottom portfolio&quot;&gt;
-              ...
-            &lt;/section&gt;
-            &lt;!-- Inner Section - Portfolio - End --&gt;
-      
-            &lt;!-- Inner Section - About - Start --&gt;
-            &lt;section id=&quot;about&quot; class=&quot;inner inner-grid-bottom about&quot;&gt;
-              ...
-            &lt;/section&gt;
-            &lt;!-- Inner Section - About - End --&gt;
-      
-            &lt;!-- Inner Section - Services - Start --&gt;
-            &lt;section id=&quot;services&quot; class=&quot;inner inner-stack-bottom services&quot;&gt;
-              ...
-            &lt;/section&gt;
-            &lt;!-- Inner Section - Services - End --&gt;
-      
-            &lt;!-- Inner Section - Resume - Start --&gt;
-            &lt;section id=&quot;resume&quot; class=&quot;inner inner-grid-bottom resume&quot;&gt;
-              ...
-            &lt;/section&gt;
-            &lt;!-- Inner Section - Resume - End --&gt;
-      
-            &lt;!-- Inner Section - Contact - Start --&gt;
-            &lt;section id=&quot;contact&quot; class=&quot;inner contact inner-grid-bottom no-padding-bottom&quot;&gt;
-              ...
-            &lt;/section&gt;
-            &lt;!-- Inner Section - Contact - End --&gt;
-      
-          &lt;/main&gt;
-          &lt;!-- Page Content End --&gt;
-      
-          &lt;!-- Bottom Background Images Start --&gt;
-          &lt;div class=&quot;bottom__background bottom-bg-01&quot;&gt;
-            ...
-          &lt;/div&gt;
-          &lt;!-- Bottom Background Images End --&gt;
-      
-          &lt;!-- Mobile Menu Bottom Placeholder Start --&gt;
-          &lt;div class=&quot;header-offset&quot;&gt;&lt;/div&gt;
-          &lt;!-- Mobile Menu Bottom Placeholder End --&gt;
-      
-          &lt;!-- To Top Button Start --&gt;
-          &lt;a href=&quot;#0&quot; id=&quot;to-top&quot; class=&quot;btn btn-to-top slide-up&quot;&gt;
-            &lt;i class=&quot;ph ph-arrow-up&quot;&gt;&lt;/i&gt;
-          &lt;/a&gt;
-          &lt;!-- To Top Button End --&gt;
-      
-          &lt;!-- Root element of PhotoSwipe. Must have class pswp. --&gt;
-          &lt;div class=&quot;pswp&quot; tabindex=&quot;-1&quot; role=&quot;dialog&quot; aria-hidden=&quot;true&quot;&gt;
-            ...
-          &lt;/div&gt;
-      
-          &lt;!-- Load Scripts Start --&gt;
-          &lt;script src=&quot;js/libs.min.js&quot;&gt;&lt;/script&gt;
-          &lt;script src=&quot;js/gallery-init.js&quot;&gt;&lt;/script&gt;
-          &lt;script src=&quot;js/app.js&quot;&gt;&lt;/script&gt;
-          &lt;!-- Load Scripts End --&gt;
-          
-        &lt;/body&gt;
-      
-      &lt;/html&gt;
-    </code>
-  </pre>
-</div>
-<div class="content__item" id="css-structure">
-  <h3>CSS Files</h3>
-  <p>Blayden template CSS files have a well-organized structure and a table of contents, as you can see on image below:</p>
-  <img src="img/structure/css.jpg" alt="CSS Structure Image">
-  <p>All CSS files are placed in
-    <code>css</code>
-    folder and have to be included in the
-    <code>&lt;head&gt;</code>
-    tag.
-    Blayden uses uncompressed CSS files.
-    If you want to improve Google PageSpeed Insights performance, you can use minificated files from
-    <code>source-files &#8594; blayden-css-min-files</code>.
-  </p>
-
-  <pre>
-    <code class="language-html">
-      &lt;!-- Template Styles Start--&gt;
-      &lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;css/loaders/loader.css&quot;&gt;
-      &lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;css/plugins.css&quot;&gt;
-      &lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;css/main.css&quot;&gt;
-      &lt;!-- Template Styles End--&gt;
-    </code>
-  </pre>
-
-  <p>CSS files that have to be included in chosen <code>.html</code> file:</p>
-  <ul>
-    <li>
-      <code>loader.css</code>
-    </li>
-    <li>
-      <code>plugins.css</code>
-    </li>
-    <li>
-      <code>main.css</code>
-    </li>
-  </ul>
-  <p>If you want to customize CSS styles, We recommend to create your own
-    <code>custom.css</code>
-    file and include it to
-    <span>Template Styles</span>
-    section of the
-    <span>HTML</span>
-    file. This solution will help you in future updates.
-  </p>
-  <!--<p class="help-text">* - Preloader color name</p>-->
-</div>
-<div class="content__item" id="js-libs">
-  <h3>JavaScript Libraries</h3>
-
-  <p>All JavaScript files are placed in
-    <code>js</code>
-    folder and have to be included before the
-    <code>&lt;/body&gt;</code>
-    tag.
-  </p>
-
-  <ul>
-    <li><code>libs.min.js</code> - all JavaScript libraries that are necessary for Blayden proper work, are compiled in this file;</li>
-    <li><code>gallery-init.js</code> - for photoswipe gallery initialization;</li>
-    <li><code>app.js</code> - includes other scripts calls and settings;</li>
-  </ul>
-
-  <pre>
-    <code class="language-html">
-      &lt;!-- Load Scripts Start--&gt;
-      &lt;script src=&quot;js/libs.min.js&quot;&gt;&lt;/script&gt;
-      &lt;script src=&quot;js/gallery-init.js&quot;&gt;&lt;/script&gt;
-      &lt;script src=&quot;js/app.js&quot;&gt;&lt;/script&gt;
-      &lt;!-- Load Scripts End--&gt;
-    </code>
-  </pre>
-
-  <p>We used minificated
-    <code>libs.min.js</code>
-    file to add all necessary JavaScript libraries to this template. The file contains:
-  </p>
-
-  <ul>
-    <li>
-      <a href="https://jquery.com/" target="_blank">jQuery</a>
-    </li>
-    <li>
-      <a href="https://modernizr.com/" target="_blank">Modernizr</a>
-    </li>
-    <li>
-      <a href="https://gsap.com/" target="_blank">GSAP</a>
-    </li>
-    <li>
-      <a href="https://gsap.com/docs/v3/Plugins/ScrollTrigger/" target="_blank">GSAP ScrollTrigger</a>
-    </li>
-    <li>
-      <a href="https://gsap.com/docs/v3/Plugins/ScrollToPlugin" target="_blank">GSAP ScrollTo</a>
-    </li>
-    <li>
-      <a href="https://getbootstrap.com/" target="_blank">Bootstrap JS Components</a>
-    </li>
-    <li>
-      <a href="https://lenis.studiofreight.com/" target="_blank">Lenis Smooth Scroll</a>
-    </li>
-    <li>
-      <a href="https://github.com/desandro/imagesloaded" target="_blank">imagesLoaded</a>
-    </li>
-    <li>
-      <a href="https://github.com/lukePeavey/SplitType" target="_blank">SplitType</a>
-    </li>
-    <li>
-      <a href="https://mattboldt.com/demos/typed-js/" target="_blank">Typed.js</a>
-    </li>
-    <li>
-      <a href="https://swiperjs.com/" target="_blank">Swiper Slider</a>
-    </li>
-    <li>
-      <a href="https://dimsemenov.com/plugins/magnific-popup/" target="_blank">Magnific Popup</a>
-    </li>
-    <!--<li>
-      <a href="https://vincentgarreau.com/particles.js/" target="_blank">Particles.js</a>
-    </li>-->
-    <li>
-      <a href="https://photoswipe.com/" target="_blank">PhotoSwipe JavaScript Gallery</a>
-    </li>
-    <li>
-      <a href="https://masonry.desandro.com/" target="_blank">Masonry Layout</a>
-    </li>
-    <!--<li>
-      <a href="https://github.com/scdoshi/jquery-ajaxchimp" target="_blank">AjaxChimp</a>
-    </li>-->
-    <!--<li>
-      <a href="https://animejs.com/" target="_blank">Anime.js</a>
-    </li>-->
-    
-    <!--<li> <span>app.js</span> - Blayden template custom JavaScript file.</li>-->
-  </ul>
-
-  <p>All this uncompressed files you can find in the <span>source-files</span> folder.</p>
-
-  <!-- <p class="help-text">* - color skin number</p> -->
-
-</div>
-</div></div><div class="docs__item" id="fonts"><div class="docs__title"><p class="number">04</p><h2 class="title">Fonts</h2></div><div class="docs__content"><p>In the Blayden template we used <a href="https://fonts.google.com/specimen/Urbanist" target="_blank">Urbanist Font</a>, <a href="https://fontawesome.com/" target="_blank">Fontawesome Iconic Font</a> and  <a href="https://phosphoricons.com/" target="_blank">Phosphor Iconic Font.</a></p><!--include 04-01_fonts-customfonts.html--><!--include 04-02_fonts-liningnums.pug--><div class="content__item" id="googlefonts"><h3>Google Fonts</h3><p>Blayden uses </p><ul><li><a href="https://fonts.google.com/specimen/Urbanist" target="_blank">Urbanist</a> font for titles, controls, basic text content and additional text.</li></ul><p>The font is embedded in the  <code>main.css</code> file:</p><pre><code class="language-css">@import url('https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');</code></pre><p>You can customize this font or embed another fonts for your project with <a href="https://fonts.google.com/" target="_blank">Google Fonts</a>. In this case, you'll also need to change the fonts in the css files per your fonts used.</p></div><div class="content__item" id="phosphor"><h3>Phosphor Icons</h3><p>Blayden uses <a href="https://phosphoricons.com/" target="_blank">Phosphor</a> iconic font. You can use <a href="https://phosphoricons.com/" target="_blank">phosphoricons.com</a> page to easily find the icon you want to use. All icons are already compiled in the <code>plugins.css</code> file and ready for use.</p><p>To insert icon in your project, just choose Web tab and copy the code: <code>&lt;i class=&quot;ph ph-heart&quot;&gt;&lt;/i&gt;</code>, <code>&lt;i class=&quot;ph ph-arrow-up&quot;&gt;&lt;/i&gt;</code>, <code>&lt;i class=&quot;ph ph-instagram-logo&quot;&gt;&lt;/i&gt;</code>.</p><pre><code class="language-html">&lt;li&gt;
-    &lt;a href=&quot;https://www.instagram.com/&quot; target=&quot;_blank&quot;&gt;
-        &lt;i class=&quot;ph ph-instagram-logo&quot;&gt;&lt;/i&gt;
-    &lt;/a&gt;
-&lt;/li&gt;</code></pre><p>More information about Phosphor icons you can find on official documentation website - <a href="https://github.com/phosphor-icons/homepage#readme" target="_blank">Phosphor Docs</a>.</p></div><div class="content__item" id="fontawesome"><h3>Fontawesome free</h3><p>Blayden uses free version of <a href="https://fontawesome.com/" target="_blank">FontAwesome 6.5.1</a> iconic font. You can use <a href="https://fontawesome.com/icons" target="_blank">fontawesome.com/icons</a> page to easily find the icon you want to use. Solid, regular and brands icons are already compiled in the <code>plugins.css</code> file and ready for use.</p><p>To change icons, just change the class names: <code>fa-solid fa-heart</code>, <code>fa-brands fa-instagram</code>, <code>fa-regular fa-address-book</code>.</p><pre><code class="language-html">&lt;li&gt;
-    &lt;a href=&quot;https://www.facebook.com/&quot; target=&quot;_blank&quot;&gt;
-        &lt;i class=&quot;fa-brands fa-facebook&quot;&gt;&lt;/i&gt;
-    &lt;/a&gt;
-&lt;/li&gt;</code></pre><p>More information about FontAwesome you can find on official documentation website - <a href="https://docs.fontawesome.com/" target="_blank">FontAwesome Docs</a>.</p></div></div></div><div class="docs__item" id="favicon">
-  <div class="docs__title">
-    <p class="number">05</p>
-    <h2 class="title">Favicon and Apple touch icons</h2>
-  </div>
-  <div class="docs__content">
-    <p>Blayden covers almost all platforms design requirements for favicon and icons:</p>
-    <p>
-      <span>Classic favicon:</span>
-    </p>
-    <pre>
-      <code class="language-html">
-        &lt;link rel=&quot;icon&quot; href=&quot;img/favicon/favicon.ico&quot; sizes=&quot;any&quot;&gt;
-      </code>
-    </pre>
-    <p>
-      <span>Android Web App Manifest & Apple Touch Icon:</span>
-    </p>
-    <pre>
-      <code class="language-html">
-        &lt;link rel=&quot;apple-touch-icon&quot; href=&quot;img/favicon/apple-touch-icon.png&quot;&gt;
-        &lt;link rel=&quot;manifest&quot; href=&quot;img/favicon/manifest.webmanifest&quot;&gt;
-      </code>
-    </pre>
-    <p>
-      <span>Universal SVG Icon for All Sizes ang Dark & Light Browser Color Themes:</span>
-    </p>
-    <pre>
-      <code class="language-svg">
-        &lt;link rel=&quot;icon&quot; href=&quot;img/favicon/icon.svg&quot; type=&quot;image/svg+xml&quot;&gt;
-      </code>
-    </pre>
-    <p>
-      <span>Facebook Metadata:</span>
-    </p>
-    <pre>
-      <code class="language-html">
-        &lt;!-- Facebook Metadata Start --&gt;
-        &lt;meta property=&quot;og:image:height&quot; content=&quot;1200&quot;&gt;
-        &lt;meta property=&quot;og:image:width&quot; content=&quot;1200&quot;&gt;
-        &lt;meta property=&quot;og:title&quot; content=&quot;Blayden - Personal Portfolio &amp; Resume HTML Template&quot;&gt;
-        &lt;meta property=&quot;og:description&quot; content=&quot;Show yourself brightly with Blayden - clean and creative portfolio and resume template!&quot;&gt;
-        &lt;meta property=&quot;og:url&quot; content=&quot;https://mixdesign.club/themeforest/blayden&quot;&gt;
-        &lt;meta property=&quot;og:image&quot; content=&quot;https://mixdesign.club/themeforest/blayden/img/og-image.jpg&quot;&gt;
-        &lt;!-- Facebook Metadata End --&gt;
-      </code>
-    </pre>
-    <p>You can use Blayden favicon as an example or generate new one with
-      <a href="https://realfavicongenerator.net/" target="_blank">Favicon Generator</a>
-      or any other favicon generator by your needs.</p>
-    <!-- <p class="help-text">* - color skin number</p> -->
-  </div>
-</div>
-<div class="docs__item" id="customization"><div class="docs__title"><p class="number">06</p><h2 class="title">Customization</h2></div><div class="docs__content"><p>Blayden template comes with easy-to-customize page elements. You can choose from 3 ready-to-use demo files,  2 color themes, various page elements and blocks and much more.</p><div class="content__item" id="preloader"><h3>Preloader</h3><p>Loader will hide contents of your site until it's fully loaded. If you want to customize or remove loader, find this code in <code>*.html</code> file:</p><pre><code class="language-html">&lt;!-- Loader Start --&gt;
-&lt;div id=&quot;loader&quot; class=&quot;loader&quot;&gt;
-  &lt;div class=&quot;loader__wrapper&quot;&gt;
-    &lt;div class=&quot;loader__content&quot;&gt;
-      &lt;div class=&quot;loader__count&quot;&gt;
-        &lt;span class=&quot;count__text&quot;&gt;0&lt;/span&gt;
-        &lt;span class=&quot;count__percent&quot;&gt;%&lt;/span&gt;
-      &lt;/div&gt;
-    &lt;/div&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;!-- Loader End --&gt;</code></pre><p>Loader styles are included in the <code>&lt;head&gt;</code> tag:</p><pre><code class="language-html">&lt;!-- Template Styles Start--&gt;
-&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;css/loaders/loader.css&quot;&gt;
-...
-&lt;!-- Template Styles End--&gt;</code></pre><!--p.help-text * - loader color name. You can choose between dark and light versions.--></div><div class="content__item" id="colors"><h3>Color themes</h3><p>Blayden template provides 2 color themes and 3 ready-to-use demo pages. The template automatically detects the device's color theme and applies the same one - dark or light. 
- You can change the color theme by clicking color theme switcher.</p><p>It's easy to change the dark and light color themes by changing default variables in the <code>main.css</code> file:</p><pre><code class="language-css">:root {
-  ...
-  /* light color scheme */
-  --base--light: #BABEC8;
-  ...
-  /* dark color scheme */
-  --base--dark: #141414;
-  ...
-  /* permanent colors */
-  --per-base: #141414;
-  ...
-}</code></pre><ol><li>Dark Color Skin<img src="img/customization/color-1.webp" alt="Color Skin Image"></li><li>Light Color Skin<img src="img/customization/color-2.webp" alt="Color Skin Image"></li></ol><p><span>Feel free to experiment!</span></p></div><div class="content__item" id="logo"><h3>Logo</h3><p>The logo container is fixed in the top left corner of the page and contains image ant text part:</p><pre><code class="language-html">&lt;!-- Fixed Logo Start --&gt;
-&lt;div class=&quot;logo loading__fade&quot;&gt;
-  &lt;a href=&quot;#home&quot; class=&quot;logo__link&quot;&gt;
-    &lt;!-- logo icon --&gt;
-    &lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; x=&quot;0px&quot; y=&quot;0px&quot; viewBox=&quot;0 0 50 50&quot; style=&quot;enable-background:new 0 0 50 50;&quot; xml:space=&quot;preserve&quot;&gt;
-      ...
-    &lt;/svg&gt;
-    &lt;!-- logo text --&gt;
-    &lt;span class=&quot;logo-text&quot;&gt;Blayden*&lt;/span&gt;
-  &lt;/a&gt;
-&lt;/div&gt;
-&lt;!-- Fixed Logo End --&gt;</code></pre><img src="img/customization/03-docs-logo.jpg" alt="Logo Image"><p> <strong>Please note! </strong>If you want to change the logo color with the color theme switch button, 
-you need to use an SVG inline code image with <code>fill=&quot;currentColor&quot;</code> property or use CSS variables in the CSS part of inline SVG image:</p><pre><code class="language-html">  &lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; width=&quot;50px&quot; height=&quot;50px&quot; viewBox=&quot;0 0 50 50&quot; fill=&quot;currentColor&quot;&gt;
-    &lt;path id=&quot;caption&quot; fill=&quot;currentColor&quot; d=&quot;...&quot;/&gt;
-    &lt;path id=&quot;logo&quot; fill=&quot;currentColor&quot; d=&quot;...&quot;/&gt;
-  &lt;/svg&gt;</code></pre><pre><code class="language-html">&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; x=&quot;0px&quot; y=&quot;0px&quot; viewBox=&quot;0 0 50 50&quot; style=&quot;enable-background:new 0 0 50 50;&quot; xml:space=&quot;preserve&quot;&gt;
-  ...
-  &lt;style type=&quot;text/css&quot;&gt;
-    .mxd-background {
-      fill: var(--neutral-bright);
-    }
-    .mxd-cat {
-      clip-path: url(#mxd-path-id);
-      fill: var(--t-opp-bright);
-    }
-  &lt;/style&gt;
-  ...
-&lt;/svg&gt;</code></pre><p>Of course, you can use an ordinary <code>&lt;img&gt;</code> tag, but in this case the logo won't change it's color with the theme.</p></div><div class="content__item" id="images"><h3>Images</h3><p>All images used in the Blayden template live demo are just for preview purpose only and they are not included in main download files. You easily can find all images on <a href="https://www.freepik.com/" target="_blank">freepik.com</a> or <a href="https://www.pexels.com/" target="_blank">pexels.com</a>. We are using  placeholders from <a href="https://dummyimage.com/" target="_blank">dummyimage.com</a> instead of real images. You can easily replace placeholder URL with a path to your image like <code>img/yourimage.jpg</code>.</p><p>All tmplate background images you can replace in the <span>main.css</span> file:</p><pre><code class="language-css">/* ------------------------------------------------*/
-/* Template Backgrounds Start */
-/* ------------------------------------------------*/
-.main-image-1 {
-  background-image: url("https://dummyimage.com/1400x1000/414141/636363");
-}
-...
-/* ------------------------------------------------*/
-/* Template Backgrounds End */
-/* ------------------------------------------------*/</code></pre></div><div class="content__item" id="header"><h3>Header and Navigation</h3><p>Blayden template comes with 1 header type with left aligned menu links and right aligned controls.</p><p><span>Desktop view:</span></p><img src="img/customization/06-docs-header.jpg" alt="Header Image"><p><span>Mobile view:</span></p><img src="img/customization/06-docs-header-m.jpg" alt="Header Image"><p>Header contains template's navigation list. You can find the header in the  beginning of the <code>*.html</code> file:</p><pre><code class="language-html">&lt;!-- Header Start --&gt;
-&lt;header id=&quot;header&quot; class=&quot;header d-flex justify-content-center loading__fade&quot;&gt;
-  &lt;!-- Navigation Menu Start --&gt;
-  &lt;div class=&quot;header__navigation d-flex justify-content-start&quot;&gt;
-    &lt;nav id=&quot;menu&quot; class=&quot;menu&quot;&gt;
-      &lt;ul class=&quot;menu__list d-flex justify-content-start&quot;&gt;
-        ...
-        &lt;li class=&quot;menu__item&quot;&gt;
-          &lt;a class=&quot;menu__link btn&quot; href=&quot;#portfolio&quot;&gt;
-            &lt;span class=&quot;menu__caption&quot;&gt;Portfolio&lt;/span&gt;
-            &lt;i class=&quot;ph ph-squares-four&quot;&gt;&lt;/i&gt;
-          &lt;/a&gt;
-        &lt;/li&gt;
-        ...
-      &lt;/ul&gt;
-    &lt;/nav&gt;
-  &lt;/div&gt;
-  &lt;!-- Navigation Menu End --&gt;
-&lt;/header&gt;
-&lt;!-- Header End --&gt;</code></pre></div><!--include 06-06_customization-menu.html--><div class="content__item" id="headline"><h3>Homescreen Layouts</h3><p>Blayden template comes with 3 creative layouts with various headlines and parallax images. You can choose between different images speed and positions and 3 headline types.
- Parallax images settings you can find in the <a href="#backgrounds">Animated Backgrounds</a> sections of this file.</p><p><span>1. Large left aligned headline with parallax images.</span> Beautifully designed layout with large  headline, and parallax images. 
- Parallax images settings you can find in the <a href="#backgrounds">Animated Backgrounds</a> sections of this file.</p><img src="img/customization/01-layout.webp" alt="Layout Image"><p>Replace this headline demo text with your own:</p><pre><code class="language-html">&lt;!-- Headline Start --&gt;
-&lt;div id=&quot;headline&quot; class=&quot;headline d-flex align-items-start flex-column loading-wrap&quot;&gt;
-  &lt;p class=&quot;headline__subtitle space-bottom loading__item&quot;&gt;Hello!&lt;br&gt;I am Alex Walker&lt;/p&gt;
-  &lt;h1 class=&quot;headline__title loading__item&quot;&gt;Digital designer&lt;br&gt;&amp; illustrator&lt;/h1&gt;
-  &lt;div class=&quot;headline__btn loading__item&quot;&gt;
-    &lt;a class=&quot;btn btn-line-small icon-right slide-right-down&quot; href=&quot;#portfolio&quot;&gt;
-      &lt;span class=&quot;btn-caption&quot;&gt;Scroll for more&lt;/span&gt;
-      &lt;i class=&quot;ph ph-arrow-down-right&quot;&gt;&lt;/i&gt;
-    &lt;/a&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;!-- Headline End --&gt;</code></pre><p><span>2. Fullscreen centered headline with assimetric parallax images.</span> Parallax images settings you can find in the <a href="#backgrounds">Animated Backgrounds</a> sections of this file.</p><img src="img/customization/02-layout.webp" alt="Layout Image"><p>Replace this headline demo text with your own:</p><pre><code class="language-html">&lt;!-- Headline Start --&gt;
-&lt;div id=&quot;headline&quot; class=&quot;headline headline-centered d-flex align-items-start flex-column loading-wrap&quot;&gt;
-  &lt;h1 class=&quot;headline__title fullwidth d-md-flex flex-md-column&quot;&gt;
-    &lt;span class=&quot;title__line d-md-flex align-items-md-center justify-content-md-start loading__item&quot;&gt;I am Alex Walker&lt;/span&gt;
-    &lt;span class=&quot;title__line d-md-flex justify-content-md-end loading__item&quot;&gt;
-      &lt;em class=&quot;text-end&quot;&gt;Hello! I'm Alex Walker, digital designer and illustrator based in Odesa, Ukraine&lt;/em&gt;
-      &lt;span&gt;digital designer&lt;/span&gt;
-    &lt;/span&gt;
-    &lt;span class=&quot;title__line d-md-flex align-items-center justify-content-xl-start loading__item&quot;&gt;
-      &lt;span&gt;&amp; illustrator&lt;/span&gt;
-      &lt;a class=&quot;btn btn-circle-text hover-circle&quot; href=&quot;#0&quot;&gt;
-        &lt;em&gt;&lt;/em&gt;
-        &lt;span class=&quot;btn-caption&quot;&gt;Download CV&lt;/span&gt;
-      &lt;/a&gt;
-    &lt;/span&gt;
-  &lt;/h1&gt;
-  &lt;div class=&quot;headline__datamobile loading__fade&quot;&gt;
-    &lt;p&gt;Hello! I'm Alex Walker, digital designer and illustrator based in Odesa, Ukraine&lt;/p&gt;
-    &lt;a class=&quot;btn btn-circle-text hover-circle&quot; href=&quot;#0&quot;&gt;
-      &lt;em&gt;&lt;/em&gt;
-      &lt;span class=&quot;btn-caption&quot;&gt;Download CV&lt;/span&gt;
-    &lt;/a&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;!-- Headline End --&gt;</code></pre><p><span>3. Large left aligned headline with animated type and parallax images.</span> Parallax images settings you can find in the <a href="#backgrounds">Animated Backgrounds</a> sections of this file. 
- Animated type settings you can find in the <a href="#plugins">Plugins</a> sections of this file.</p><img src="img/customization/03-layout.webp" alt="Layout Image"><p>Replace this headline demo text with your own:</p><pre><code class="language-html">&lt;!-- Headline Start --&gt;
-&lt;div id=&quot;headline&quot; class=&quot;headline headline-95-desktop d-flex align-items-start flex-column loading-wrap&quot;&gt;
-  &lt;h1 class=&quot;headline__title loading__item&quot;&gt;Design, tech &amp; some magic&lt;/h1&gt;
-  &lt;p class=&quot;headline__subtitle space-top animated-type loading__item&quot;&gt;Hello! I am Alex Walker
-    &lt;br&gt;
-    &lt;span id=&quot;typed-strings&quot;&gt;
-      &lt;b&gt;UI/UX designer&lt;/b&gt;
-      &lt;b&gt;3D Artist&lt;/b&gt;
-      &lt;b&gt;Illustrator&lt;/b&gt;
-    &lt;/span&gt;
-    &lt;span id=&quot;typed&quot;&gt;&lt;/span&gt;
-  &lt;/p&gt;
-&lt;/div&gt;
-&lt;!-- Headline End --&gt;</code></pre></div></div></div><div class="docs__item" id="plugins"><div class="docs__title"><p class="number">07</p><h2 class="title">Plugins</h2></div><div class="docs__content"><!--include 07-01_plugins-countdown.html--><div class="content__item" id="typedjs"><h3>Animated Headline</h3><p>We used <a href="https://mattboldt.com/demos/typed-js/" target="_blank">Typed.js</a> plugin for animated headline feature. To customize an animated headline, 
- you need to find the following markup in the main section of the <code>*.html</code> file and change the content of <code>&lt;b&gt;</code> tags:</p><pre><code class="language-html">&lt;p class=&quot;headline__subtitle space-top animated-type loading__item&quot;&gt;Hello! I am Alex Walker
-  &lt;br&gt;
-  &lt;span id=&quot;typed-strings&quot;&gt;
-    &lt;b&gt;UI/UX designer&lt;/b&gt;
-    &lt;b&gt;3D Artist&lt;/b&gt;
-    &lt;b&gt;Illustrator&lt;/b&gt;
-  &lt;/span&gt;
-  &lt;span id=&quot;typed&quot;&gt;&lt;/span&gt;
-&lt;/p&gt;</code></pre><p>You can find headline settings (like type speed) in the <code>appjs</code> file:</p><pre><code class="language-js">// --------------------------------------------- //
-// Typed.js Plugin Settings Start
-// --------------------------------------------- //
-var animatedHeadline = $(&quot;.animated-type&quot;);
-if(animatedHeadline.length){
-  var typed = new Typed('#typed', {
-    stringsElement: '#typed-strings',
-    loop: true,
-    typeSpeed: 60,
-    backSpeed: 30,
-    backDelay: 2500
-  });
-}
-// --------------------------------------------- //
-// Typed.js Plugin Settings End
-// --------------------------------------------- //</code></pre><p>Visit Typed.js plugin website for more details and settings - <a href="https://mattboldt.com/demos/typed-js/" target="_blank">mattboldt.com/demos/typed-js</a></p></div><div id="swiper" class="content__item">
-
-  <h3>Swiper Slider</h3>
-  <p>Blayden uses <a href="https://swiperjs.com/" target="_blank">Swiper Slider Plugin</a> for the testimonials slider.
-     It's a simple slider with navigation buttons, pagination and slide effect:</p>
-  <img src="img/plugins/swiper.jpg" alt="Swiper Slider Image">
-
-  <pre>
-    <code class="language-html">
-      &lt;!-- Testimonials Slider Start --&gt;
-      &lt;div class=&quot;testimonials-slider&quot;&gt;
-        &lt;!-- slider main container --&gt;
-        &lt;div class=&quot;swiper-testimonials&quot;&gt;
-          &lt;!-- additional required wrapper --&gt;
-          &lt;div class=&quot;swiper-wrapper&quot;&gt;
-            &lt;!-- slides --&gt;
-            &lt;div class=&quot;swiper-slide&quot;&gt;
-              ...
-            &lt;/div&gt;
-            &lt;div class=&quot;swiper-slide&quot;&gt;
-              ...
-            &lt;/div&gt;
-          &lt;/div&gt;
-          &lt;!-- navigation buttons --&gt;
-          &lt;div class=&quot;swiper-button-prev mxd-slider-btn mxd-slider-btn-square-prev animate-in-up&quot;&gt;
-            ...
-          &lt;/div&gt;
-          &lt;div class=&quot;swiper-button-next mxd-slider-btn mxd-slider-btn-square-next animate-in-up&quot;&gt;
-            ...
-          &lt;/div&gt;
-        &lt;/div&gt;
-      &lt;/div&gt;
-      &lt;!-- Testimonials Slider End --&gt;
-    </code>
-  </pre>
-
-  <p>Find the <code>Load Scripts</code> section at the end of <code>&lt;body&gt;</code> and make sure that all the necessary js files are added in the following order:</p>
-  <ul>
-    <li>libs.min.js</li>
-    <li>app.js</li>
-  </ul>
-  <pre>
-    <code class="language-html">
-      &lt;!-- Load Scripts Start --&gt;
-      &lt;script src=&quot;js/libs.min.js&quot;&gt;&lt;/script&gt;
-      ...
-      &lt;script src=&quot;js/app.js&quot;&gt;&lt;/script&gt;
-      &lt;!-- Load Scripts End --&gt;
-    </code>
-  </pre>
-  <p>
-    If you want to change this slider settings, find the
-    <code>app.js</code>
-    file in
-    <code>js</code>
-    folder and make the necessary changes to the swiper init lines:
-  </p>
-
-  <pre>
-    <code class="language-js">
-      const swiper = new Swiper('.swiper-testimonials', {
-        slidesPerView: 1,
-        spaceBetween: 20,
-        autoplay: true,
-        speed: 1000,
-        loop: true,
-        loopFillGroupWithBlank: true,
-        pagination: {
-          el: ".swiper-pagination",
-          type: "fraction",
-        },
-        navigation: {
-          nextEl: '.swiper-button-next',
-          prevEl: '.swiper-button-prev',
-        },
-      });
-    </code>
-  </pre>
-
-  <p>
-    More information about Swiper settings you can find in the official documentation -
-    <a href="https://swiperjs.com/get-started" target="_blank">swiperjs.com/get-started</a>
-  </p>
-
-</div>
-<!--include 07-04_plugins-skillbars.pug--><div class="content__item" id="magnific"><h3>Magnific Popup</h3><p>Blayden uses <a href="https://dimsemenov.com/plugins/magnific-popup/" target="_blank">Magnific Popup</a> for portfolio projects presentation in the Demo #2 and Demo #3.</p><img src="img/plugins/magnific.jpg" alt="Magnific Popup Image"><p>Each portfolio stacking card contains a corresponding popup trigger made with <code>data-mfp-src</code> property and a <code>popup-trigger</code> class.</p><pre><code class="language-html">&lt;!-- Content Block - Portfolio Gallery Stack Grid Start --&gt;
-&lt;div class=&quot;content__block&quot;&gt;
-  &lt;div class=&quot;stack-wrapper&quot;&gt;
-      &lt;div class=&quot;stack-offset solid-block&quot;&gt;&lt;/div&gt;
-      &lt;div class=&quot;portfolio-stack&quot;&gt;
-        ...
-        &lt;!-- portfolio stack single item --&gt;
-        &lt;div class=&quot;stack-item&quot;&gt;
-          &lt;div data-mfp-src=&quot;#portfolio-popup-2&quot; class=&quot;portfolio-stack__inner portfolio-item-6 popup-trigger&quot;&gt;
-            &lt;div class=&quot;portfolio-stack__descr&quot;&gt;
-              &lt;h5 class=&quot;portfolio-stack__title light&quot;&gt;Reflection AI project&lt;/h5&gt;
-            &lt;/div&gt;
-          &lt;/div&gt;
-        &lt;/div&gt;
-        ...
-      &lt;/div&gt;
-    &lt;/div&gt;
-&lt;/div&gt;
-&lt;!-- Content Block - Portfolio Gallery Stack Grid End --&gt;</code></pre><p>Also you need to locate the popup content in your <span>*.html</span> file. This popup must have a proper ID and an <code>mfp-hide</code> class to be invisible until it'll be triggered:</p><pre><code class="language-html">&lt;!-- Portfilio Single Item Popup №2 Start --&gt;
-&lt;div id=&quot;portfolio-popup-2&quot; class=&quot;popup mfp-hide&quot; data-lenis-prevent=&quot;&quot;&gt;
- 
-  &lt;!-- Popup Close Button Start --&gt;
-  &lt;button class=&quot;mfp-close permanent-light&quot;&gt;&lt;/button&gt;
-  &lt;!-- Popup Close Button End --&gt;
- 
-  &lt;!-- Popup Content Start --&gt;
-  &lt;div class=&quot;popup__container&quot;&gt;
-    ...
-  &lt;/div&gt;
-  &lt;!-- Popup Content End --&gt;
- 
-&lt;/div&gt;
-&lt;!-- Portfilio Single Item Popup №2 End --&gt;</code></pre><p>All popup parameters you can change in the <span>app.js</span> file:</p><pre><code class="language-js">// --------------------------------------------- //
-// Magnific Popup Start
-// --------------------------------------------- //
-$(&quot;.popup-trigger&quot;).magnificPopup({
-  type: &quot;inline&quot;,
-  fixedContentPos: true,
-  fixedBgPos: true,
-  overflowY: &quot;scroll&quot;,
-  preloader: false,
-  midClick: true,
-  removalDelay: 600,
-  mainClass: &quot;mfp-fade&quot;,
-});
-// --------------------------------------------- //
-// Magnific Popup End
-// --------------------------------------------- //</code></pre><p>See <a href="https://dimsemenov.com/plugins/magnific-popup/" target="_blank">dimsemenov.com/plugins/magnific-popup</a> page for more settings.</p></div><div class="content__item" id="gallery"><h3>Photoswipe Gallery</h3><p>Portfolio gallery is made using <a href="https://photoswipe.com/" target="_blank">PhotoSwipe JavaScript Gallery</a>.</p><img src="img/plugins/15-docs-gallery-1.jpg" alt="Gallery Image"><p>This is an example for one portfolio item, just duplicate it to add new pictures or fill it with your content:</p><pre><code class="language-html">&lt;!-- portfolio gallery single item --&gt;
-&lt;figure class=&quot;col-12 col-md-6 gallery__item grid-item animate-card-2&quot; itemprop=&quot;associatedMedia&quot; itemscope itemtype=&quot;http://schema.org/ImageObject&quot;&gt;
-  &lt;a href=&quot;https://dummyimage.com/1400x1050/686868/737373&quot; data-image=&quot;https://dummyimage.com/1400x1050/686868/737373&quot; class=&quot;gallery__link&quot; itemprop=&quot;contentUrl&quot; data-size=&quot;1400x1050&quot;&gt;
-    &lt;img src=&quot;https://dummyimage.com/1400x1050/686868/737373&quot; class=&quot;gallery__image&quot; itemprop=&quot;thumbnail&quot; alt=&quot;Image description&quot;&gt;
-  &lt;/a&gt;
-  &lt;figcaption class=&quot;gallery__descr&quot; itemprop=&quot;caption description&quot;&gt;
-    &lt;h5&gt;Designer Portfolio
-      &lt;small&gt;UI/UX design&lt;/small&gt;
-    &lt;/h5&gt;
-    &lt;p class=&quot;small&quot;&gt;Mauris porttitor lobortis ligula, quis molestie lorem scelerisque eu. Morbi aliquam enim odio,
-      a mollis ipsum tristique eu.
-    &lt;/p&gt;
-  &lt;/figcaption&gt;
-&lt;/figure&gt;</code></pre><img src="img/plugins/16-docs-gallery-2.jpg" alt="Gallery Image"><p>JavaScript files that have to be included:</p><ul><li>libs.min.js</li><li>gallery-init.js</li></ul><pre><code class="language-html">&lt;!-- Load Scripts Start--&gt;
-&lt;script src=&quot;js/libs.min.js&quot;&gt;&lt;/script&gt;
-&lt;script src=&quot;js/gallery-init.js&quot;&gt;&lt;/script&gt;
-...
-&lt;!-- Load Scripts End--&gt;</code></pre><p>More information about PhotoSwipe Gallery you can find in <span><a href="https://photoswipe.com/documentation/getting-started.html" target="_blank">PhotoSwipe Documentation</a></span>.</p></div></div></div><div class="docs__item" id="backgrounds"><div class="docs__title"><p class="number">08</p><h2 class="title">Animated Backgrounds</h2></div><div class="docs__content"><p>All backgrounds CSS styles are compiled in <code>plugins.css</code> file so you don't need to add any CSS files.</p><!--include 08-01_backgrounds-svgobjects.pug--><div class="content__item" id="parallaxImage"><h3>Parallax Images</h3><img src="img/backgrounds/1.webp" alt="Animated Background Image"><p>This background effect is created using a <code>*.webp</code> images with transparent background:</p><pre><code class="language-html">&lt;!-- Intro Background Start --&gt;
-&lt;div class=&quot;intro__background intro-bg-01&quot;&gt;
-  &lt;div class=&quot;intro-bg-01__01&quot; data-speed=&quot;0.6&quot;&gt;
-    &lt;img src=&quot;https://dummyimage.com/1200x1200/4d4d4d/636363&quot; alt=&quot;Background Objects&quot;&gt;
-    &lt;div class=&quot;intro-bg__shadow&quot;&gt;&lt;/div&gt;
-  &lt;/div&gt;
-  &lt;div class=&quot;intro-bg-01__02&quot; data-speed=&quot;0.8&quot;&gt;
-    &lt;img src=&quot;https://dummyimage.com/1200x1200/4d4d4d/636363&quot; alt=&quot;Background Objects&quot;&gt;
-    &lt;div class=&quot;intro-bg__shadow&quot;&gt;&lt;/div&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;!-- Intro Background End --&gt;</code></pre><p>Replace the placeholder with your image directly in the <span>*.html</span> file. You can use <code>*.webp</code> or <code>*.png</code> images.</p><p>Parallax scroll animation is provided by GSAP and scrollTrigger. If you want to change the scroll speed for  any object, just add  <code>data-speed</code> property:</p><pre><code class="language-html">&lt;div class=&quot;intro-bg-01__01&quot; data-speed=&quot;0.6&quot;&gt;</code></pre><pre><code class="language-js">gsap.to("[data-speed]", {
-  y: (i, el) => (1 - parseFloat(el.getAttribute("data-speed"))) * ScrollTrigger.maxScroll(window) ,
-  ease: "none",
-  scrollTrigger: {
-    start: 0,
-    end: "max",
-    invalidateOnRefresh: true,
-    scrub: 0
-  }
-});</code></pre></div><!--include 08-03_backgrounds-animatedgradient.pug--><!--include 08-02_backgrounds-snow.pug--><!--include 08-02_backgrounds-nightsky.pug--><!--include 08-03_backgrounds-triangles.pug--><!--include 08-03_backgrounds-kenburns.pug--><!--include 08-04_backgrounds-video-local.pug--></div></div><div class="docs__item" id="forms"><div class="docs__title"><p class="number">09</p><h2 class="title">Forms</h2></div><div class="docs__content"><p>Blayden template is provided with 1 working form type:</p><ul><!--lia(href="#subscription-form") Mailchimp Subscription Form--><li><a href="#contact-forms">AJAX Contact Form.</a></li></ul><!--include 09-01_forms-subscription.pug--><div class="content__item" id="contact-forms"><h3>Contact Form</h3><p>Blayden template has integrated ajax contact form.</p><img src="img/forms/17-docs-form-1.jpg" alt="Blayden Contact Form Image"><p>It's very easy to set up this forms to receive feedback on your e-mail:</p><ol><li>First of all you need to make sure that <code>mail.php</code> file is added to the root directory of your project.</li><li>Then find <code>&lt;form&gt;</code> tag with <code>id="contact-form"</code> in the <code>*.html</code> file. </li><li>This form contains 3 hidden required inputs. Replace data in the value parameter of these hidden fields:<pre><code class="language-html">&lt;!-- Contact Form Start --&gt;
-&lt;form class=&quot;form contact-form&quot; id=&quot;contact-form&quot;&gt;
-  &lt;!-- Hidden Required Fields --&gt;
-  &lt;input type=&quot;hidden&quot; name=&quot;project_name&quot; value=&quot;Blayden Template&quot;&gt;
-  &lt;input type=&quot;hidden&quot; name=&quot;admin_email&quot; value=&quot;support@mixdesign.club&quot;&gt;
-  &lt;input type=&quot;hidden&quot; name=&quot;form_subject&quot; value=&quot;Contact Form Message&quot;&gt;
-  &lt;!-- END Hidden Required Fields--&gt;
-  ...
-&lt;/form&gt;
-&lt;!-- Contact Form End --&gt;</code></pre></li><li>Check JavaScript files connection.</li></ol><p>JavaScript files that have to be included:</p><ul><li><span>libs.min.js</span></li><li><span>app.js</span></li></ul><pre><code class="language-html">&lt;!-- Load Scripts Start--&gt;
-&lt;script src=&quot;js/libs.min.js&quot;&gt;&lt;/script&gt;
-...
-&lt;script src=&quot;js/app.js&quot;&gt;&lt;/script&gt;
-&lt;!-- Load Scripts End--&gt;</code></pre><p><span>Done! Now you can receive messages on your e-mail.</span></p></div></div></div><!--include chapters/10_maps.pug--><div class="docs__item" id="gulp-project"><div class="docs__title"><p class="number">10</p><h2 class="title">BlaydenGULP</h2></div><div class="docs__content"><p>If you want to totally customize Blayden, you can use our all-inclusive <span>BlaydenGULP template.</span> BlaydenGULP includes Bootstrap 5 Grid, Gulp, Sass, Bourbon, Autoprefixer, Browsersync, Clean-CSS, CSS Beautify, Uglify, 
- and other packages for efficient and comfortable work.</p><p>BlaydenGULP requires <span><a href="https://nodejs.org">node</a></span>, <span><a href="https://www.npmjs.com/">npm</a></span> and <span><a href="https://git-scm.com/">git</a></span>.</p><h3>Getting started</h3><p>Install Node Modules: <code>npm i</code><br>Run BlaydenGULP: <code>gulp</code></p><h3>Project structure</h3><ul><li>The source code is located in the <code>app</code> directory;</li><li>SASS files are located in the <code>sass</code> directory;</li><li>The <code>dist</code> folder is a production folder. It contains ready project with optimized HTML, CSS, JS and images.</li></ul><h3>Gulp tasks</h3><p><span>gulp:</span> run default gulp task for web development;<br><span>build:</span> build project to dist folder;<br><span>clearcache:</span> clear all gulp cache.</p><p>If you have any questions about BlaydenGULP, you can email us on <span><a href="mailto:support@mixdesign.club">support@mixdesign.club</a></span>.</p></div></div><div class="docs__item" id="changelog"><div class="docs__title"><p class="number">11</p><h2 class="title">Changelog</h2></div><div class="docs__content"><h3>Version 1.0.0 <span>14.05.2024</span></h3><ul><li>Initial release</li></ul></div></div><div class="docs__item" id="credits"><div class="docs__title"><p class="number">12</p><h2 class="title">Credits</h2></div><div class="docs__content"><h3>CSS and JavaScript files</h3><ul><li>jQuery - <a href="http://jquery.com/" target="_blank">jquery.com</a></li><!--li jQuery Transit - a(href="https://github.com/rstacruz/jquery.transit" target="_blank") github.com/rstacruz/jquery.transit--><!--li jQuery Mousewheel - a(href="https://github.com/jquery/jquery-mousewheel" target="_blank") github.com/jquery/jquery-mousewheel--><li>Modernizr - <a href="https://modernizr.com/" target="_blank">modernizr.com</a></li><li>GSAP - <a href="https://gsap.com/" target="_blank">gsap.com</a></li><li>GSAP ScrollTrigger - <a href="https://gsap.com/docs/v3/Plugins/ScrollTrigger/" target="_blank">gsap.com/docs/v3/Plugins/ScrollTrigger</a></li><li>GSAP ScrollTo - <a href="https://gsap.com/docs/v3/Plugins/ScrollToPlugin" target="_blank">gsap.com/docs/v3/Plugins/ScrollToPlugin</a></li><li>Lenis Smooth Scroll - <a href="https://lenis.studiofreight.com/" target="_blank">lenis.studiofreight.com</a></li><li>Bootstrap 5 grid and JS components - <a href="https://getbootstrap.com/" target="_blank">getbootstrap.com</a></li><li>imagesLoaded - <a href="https://github.com/desandro/imagesloaded" target="_blank">github.com/desandro/imagesloaded</a></li><li>SplitType - <a href="https://github.com/lukePeavey/SplitType" target="_blank">github.com/lukePeavey/SplitType</a></li><!--li KBW Countdown - a(href="http://keith-wood.name/countdown.html" target="_blank") keith-wood.name/countdown.html--><li>Typed.js - <a href="https://mattboldt.com/demos/typed-js/" target="_blank">mattboldt.com/demos/typed-js</a></li><!--li Textillate.js - a(href="https://textillate.js.org/" target="_blank") textillate.js.org--><!--li Lettering.js - a(href="https://letteringjs.com/" target="_blank") letteringjs.com--><li>Magnific Popup - <a href="https://dimsemenov.com/plugins/magnific-popup/" target="_blank">dimsemenov.com/plugins/magnific-popup</a></li><!--li Malihu Custom Scrollbar - a(href="https://manos.malihu.gr/jquery-custom-content-scroller/" target="_blank") manos.malihu.gr/jquery-custom-content-scroller--><li>Swiper Slider - <a href="https://swiperjs.com/" target="_blank">swiperjs.com</a></li><!--li Vegas - a(href="https://vegas.jaysalvat.com/" target="_blank") vegas.jaysalvat.com--><!--li YTPlayer - a(href="https://github.com/pupunzi/jquery.mb.YTPlayer" target="_blank") github.com/pupunzi/jquery.mb.YTPlayer--><!--li Particles JS - a(href="https://vincentgarreau.com/particles.js/" target="_blank") vincentgarreau.com/particles.js--><li>PhotoSwipe JavaScript Gallery - <a href="http://photoswipe.com/" target="_blank">photoswipe.com</a></li><li>Masonry Layout - <a href="https://masonry.desandro.com/" target="_blank">masonry.desandro.com</a></li><!--li jQuery CSS Skills Bar - a(href="https://github.com/umarwebdeveloper/jquery-css-skills-bar" target="_blank") github.com/umarwebdeveloper/jquery-css-skills-bar--><!--li Google Maps - a(href="https://developers.google.com/maps/web/" target="_blank") developers.google.com/maps/web--><!--li AjaxChimp - a(href="https://github.com/scdoshi/jquery-ajaxchimp" target="_blank") github.com/scdoshi/jquery-ajaxchimp--><li>UniMail - <a href="https://github.com/agragregra/uniMail" target="_blank">github.com/agragregra/uniMail</a></li></ul><h3>Icons and images</h3><ul><li>Icons - <a href="https://phosphoricons.com/" target="_blank">Phosphoricons.com</a> and <a href="https://fontawesome.com/" target="_blank">Fontawesome.com</a></li><li>Images - <a href="https://www.freepik.com/" target="_blank">Freepik.com</a> and <a href="https://www.pexels.com/" target="_blank">Pexels.com</a></li><li>Mockups - <a href="https://www.designdeck.io/" target="_blank">Designdeck.io</a></li></ul></div></div></div></div></div></section><!-- footer--><footer class="demo__footer">
-  <p>made with
-    <i class="fas fa-heart"></i>
-     by
-    <a href="https://1.envato.market/EKA9WD" target="_blank">mix_design</a>
-  </p>
-</footer>
-<!-- to top button--><a href="#0" class="to-top-button">
-  <i class="fas fa-arrow-up"></i>
-</a>
-<!-- load scripts--><script src="js/libs.min.js"></script>
-<script src="js/docs.js"></script>
-</body></html>
+    <!-- Load Scripts Start -->
+    <script src="js/libs.min.js"></script>
+    <script src="js/gallery-init.js"></script>
+    <script src="js/app.js"></script>
+    <!-- Load Scripts End -->
+  </body>
+</html>
